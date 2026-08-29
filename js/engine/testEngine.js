@@ -10,7 +10,15 @@ window.TestEngine = {
     const qEngine = window.QuestionBankEngine;
 
     // 1. Collect all eligible questions for the selected scope
-    const pool = qEngine.getQuestionsByScope(bank, filter);
+    let pool = qEngine.getQuestionsByScope(bank, filter);
+
+    // If dynamic generator exists for this chapter and more questions can be generated
+    if (window.DynamicQuestionGenerator && filter && filter.chapter_id) {
+      const dynamicQuestions = window.DynamicQuestionGenerator.generateBatch(filter.chapter_id, 50);
+      if (dynamicQuestions && dynamicQuestions.length > 0) {
+        pool = pool.concat(dynamicQuestions);
+      }
+    }
 
     if (pool.length === 0) {
       return {
