@@ -3468,5 +3468,1391 @@ window.BSEB_QUESTION_BANK = [
       "hi": "पाठ में अशांति के दो मूल कारण द्वेष (ईर्ष्या) और असहिष्णुता (सहनशीलता का अभाव) बताए गए हैं।",
       "en": "Hatred (Dvesha) and Intolerance (Asahishnuta) are the fundamental causes of unrest."
     }
+  },
+  {
+    "id": "q_sci_c10_002",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b1",
+    "chapter_id": "sci_c10",
+    "topic_id": "sci_c10_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "दाढ़ी बनाने (हजामत) के लिए किस दर्पण का उपयोग किया जाता है?",
+      "en": "Which mirror is used as a shaving mirror?"
+    },
+    "options": {
+      "hi": {
+        "A": "इनमें से कोई नहीं",
+        "B": "अवतल दर्पण (Concave)",
+        "C": "समतल दर्पण",
+        "D": "उत्तल दर्पण"
+      },
+      "en": {
+        "A": "None of these",
+        "B": "Concave mirror",
+        "C": "Plane mirror",
+        "D": "Convex mirror"
+      }
+    },
+    "correct_option": "B",
+    "explanation": {
+      "hi": "अवतल दर्पण वस्तु का सीधा और बड़ा (आवर्धित) आभासी प्रतिबिंब बनाता है जब वस्तु फोकस और ध्रुव के बीच हो।",
+      "en": "Concave mirror forms an enlarged virtual erect image when object is between pole and focus."
+    }
+  },
+  {
+    "id": "q_sci_c10_003",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b1",
+    "chapter_id": "sci_c10",
+    "topic_id": "sci_c10_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "वाहनों के पश्च-दृश्य (Side mirror / Rear-view) दर्पण के रूप में किसका उपयोग होता है?",
+      "en": "Which mirror is used as a rear-view (side) mirror in vehicles?"
+    },
+    "options": {
+      "hi": {
+        "A": "उत्तल दर्पण (Convex)",
+        "B": "उत्तल लेंस",
+        "C": "अवतल दर्पण",
+        "D": "समतल दर्पण"
+      },
+      "en": {
+        "A": "Convex mirror",
+        "B": "Convex lens",
+        "C": "Concave mirror",
+        "D": "Plane mirror"
+      }
+    },
+    "correct_option": "A",
+    "explanation": {
+      "hi": "उत्तल दर्पण हमेशा सीधा छोटा प्रतिबिंब बनाता है और इसका दृष्टि क्षेत्र (Field of view) बहुत विस्तृत होता है।",
+      "en": "Convex mirror gives an erect diminished image and wider field of view."
+    }
+  },
+  {
+    "id": "q_sci_c10_004",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b1",
+    "chapter_id": "sci_c10",
+    "topic_id": "sci_c10_t2",
+    "difficulty": "Medium",
+    "question": {
+      "hi": "हीरे (Diamond) का अपवर्तनांक (Refractive Index) कितना होता है?",
+      "en": "What is the refractive index of Diamond?"
+    },
+    "options": {
+      "hi": {
+        "A": "2.42",
+        "B": "1.50",
+        "C": "1.00",
+        "D": "1.33"
+      },
+      "en": {
+        "A": "2.42",
+        "B": "1.50",
+        "C": "1.00",
+        "D": "1.33"
+      }
+    },
+    "correct_option": "A",
+    "explanation": {
+      "hi": "हीरे का अपवर्तनांक 2.42 होता है जो सभी पदार्थों में सर्वाधिक है, इसी कारण इसका क्रांतिक कोण (24.4°) बहुत कम होता है और यह चमकता है।",
+      "en": "Refractive index of diamond is 2.42, which is highest among common optical media."
+    }
+  },
+  {
+    "id": "q_sci_c11_003",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b1",
+    "chapter_id": "sci_c11",
+    "topic_id": "sci_c11_t2",
+    "difficulty": "Medium",
+    "question": {
+      "hi": "दीर्घ-दृष्टि दोष (Hypermetropia) के निवारण के लिए किस लेंस का उपयोग किया जाता है?",
+      "en": "Which lens is used to correct Hypermetropia (Far-sightedness)?"
+    },
+    "options": {
+      "hi": {
+        "A": "द्विफोकसी लेंस",
+        "B": "बेलनाकार लेंस",
+        "C": "अवतल लेंस",
+        "D": "उत्तल लेंस (Convex)"
+      },
+      "en": {
+        "A": "Bifocal lens",
+        "B": "Cylindrical lens",
+        "C": "Concave lens",
+        "D": "Convex lens"
+      }
+    },
+    "correct_option": "D",
+    "explanation": {
+      "hi": "दीर्घ दृष्टि दोष में पास की वस्तुएं स्पष्ट नहीं दिखतीं। इसके निवारण हेतु उत्तल (अभिसारी) लेंस के चश्मे का प्रयोग होता है।",
+      "en": "Convex lens (converging) is used to correct Hypermetropia."
+    }
+  },
+  {
+    "id": "q_sci_c11_004",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b1",
+    "chapter_id": "sci_c11",
+    "topic_id": "sci_c11_t3",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "स्पेक्ट्रम प्राप्त करने के लिए किसका उपयोग होता है?",
+      "en": "What is used to produce a spectrum of white light?"
+    },
+    "options": {
+      "hi": {
+        "A": "प्रिज्म (Prism)",
+        "B": "अवतल दर्पण",
+        "C": "उत्तल लेंस",
+        "D": "कांच की सिल्ली"
+      },
+      "en": {
+        "A": "Prism",
+        "B": "Concave mirror",
+        "C": "Convex lens",
+        "D": "Glass slab"
+      }
+    },
+    "correct_option": "A",
+    "explanation": {
+      "hi": "प्रिज्म श्वेत प्रकाश को उसके सात अवयवी रंगों (VIBGYOR) में विक्षेपित कर देता है।",
+      "en": "A glass prism disperses white light into its spectrum of 7 constituent colors."
+    }
+  },
+  {
+    "id": "q_sci_c12_002",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b1",
+    "chapter_id": "sci_c12",
+    "topic_id": "sci_c12_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "विद्युत परिपथ में विद्युत धारा को मापने के लिए किस यंत्र का उपयोग किया जाता है?",
+      "en": "Which instrument is used to measure electric current in a circuit?"
+    },
+    "options": {
+      "hi": {
+        "A": "वोल्टमीटर",
+        "B": "गैल्वेनोमीटर",
+        "C": "एमीटर (Ammeter)",
+        "D": "पोटेंशियोमीटर"
+      },
+      "en": {
+        "A": "Voltmeter",
+        "B": "Galvanometer",
+        "C": "Ammeter",
+        "D": "Potentiometer"
+      }
+    },
+    "correct_option": "C",
+    "explanation": {
+      "hi": "एमीटर को परिपथ में श्रेणीक्रम में जोड़ा जाता है और यह विद्युत धारा (Ampere) मापता है।",
+      "en": "Ammeter is connected in series to measure electric current."
+    }
+  },
+  {
+    "id": "q_sci_c12_003",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b1",
+    "chapter_id": "sci_c12",
+    "topic_id": "sci_c12_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "विभवांतर मापने वाले यंत्र को क्या कहा जाता है?",
+      "en": "What is the device used to measure potential difference called?"
+    },
+    "options": {
+      "hi": {
+        "A": "मैनोमीटर",
+        "B": "थर्मामीटर",
+        "C": "वोल्टमीटर (Voltmeter)",
+        "D": "एमीटर"
+      },
+      "en": {
+        "A": "Manometer",
+        "B": "Thermometer",
+        "C": "Voltmeter",
+        "D": "Ammeter"
+      }
+    },
+    "correct_option": "C",
+    "explanation": {
+      "hi": "वोल्टमीटर को परिपथ में समानांतर क्रम में जोड़ा जाता है और यह विभवांतर (Volts) मापता है।",
+      "en": "Voltmeter is connected in parallel to measure voltage across two points."
+    }
+  },
+  {
+    "id": "q_sci_c13_002",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b1",
+    "chapter_id": "sci_c13",
+    "topic_id": "sci_c13_t3",
+    "difficulty": "Medium",
+    "question": {
+      "hi": "विद्युत मोटर ऊर्जा के किस रूप को किस रूप में परिवर्तित करता है?",
+      "en": "An electric motor converts which form of energy into which form?"
+    },
+    "options": {
+      "hi": {
+        "A": "रासायनिक ऊर्जा को विद्युत में",
+        "B": "सौर ऊर्जा को विद्युत में",
+        "C": "विद्युत ऊर्जा को यांत्रिक ऊर्जा में",
+        "D": "यांत्रिक ऊर्जा को विद्युत ऊर्जा में"
+      },
+      "en": {
+        "A": "Chemical to Electrical",
+        "B": "Solar to Electrical",
+        "C": "Electrical to Mechanical",
+        "D": "Mechanical to Electrical"
+      }
+    },
+    "correct_option": "C",
+    "explanation": {
+      "hi": "विद्युत मोटर विद्युत ऊर्जा को यांत्रिक ऊर्जा (Mechanical Energy) में बदलता है।",
+      "en": "Electric motor converts electrical energy into mechanical energy."
+    }
+  },
+  {
+    "id": "q_sci_c1_002",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b2",
+    "chapter_id": "sci_c1",
+    "topic_id": "sci_c1_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "श्वसन (Respiration) किस प्रकार की रासायनिक अभिक्रिया है?",
+      "en": "What type of chemical reaction is respiration?"
+    },
+    "options": {
+      "hi": {
+        "A": "ऊष्माक्षेपी (Exothermic)",
+        "B": "अपचयन",
+        "C": "संयोजन",
+        "D": "ऊष्माशोषी (Endothermic)"
+      },
+      "en": {
+        "A": "Exothermic",
+        "B": "Reduction",
+        "C": "Combination",
+        "D": "Endothermic"
+      }
+    },
+    "correct_option": "A",
+    "explanation": {
+      "hi": "श्वसन में ग्लूकोज ऑक्सीजन से मिलकर ऊर्जा (ऊष्मा) मुक्त करता है (C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ऊर्जा), अतः यह ऊष्माक्षेपी अभिक्रिया है।",
+      "en": "Respiration releases energy, making it an exothermic reaction."
+    }
+  },
+  {
+    "id": "q_sci_c1_003",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b2",
+    "chapter_id": "sci_c1",
+    "topic_id": "sci_c1_t3",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "चिप्स की थैली में कौन-सी गैस भरी जाती है ताकि वे विकृतगंधी (Rancid) न हों?",
+      "en": "Which gas is flushed in bags of potato chips to prevent rancidity?"
+    },
+    "options": {
+      "hi": {
+        "A": "हाइड्रोजन",
+        "B": "नाइट्रोजन (Nitrogen)",
+        "C": "क्लोरीन",
+        "D": "ऑक्सीजन"
+      },
+      "en": {
+        "A": "Hydrogen",
+        "B": "Nitrogen",
+        "C": "Chlorine",
+        "D": "Oxygen"
+      }
+    },
+    "correct_option": "B",
+    "explanation": {
+      "hi": "नाइट्रोजन एक अक्रिय गैस है जो तेल व वसा के उपचयन (Oxidation) को रोकती है।",
+      "en": "Nitrogen is an unreactive gas that prevents oxidation of oils and fats."
+    }
+  },
+  {
+    "id": "q_sci_c2_002",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b2",
+    "chapter_id": "sci_c2",
+    "topic_id": "sci_c2_t3",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "बेकिंग सोडा (खाने का सोडा) का रासायनिक नाम और सूत्र क्या है?",
+      "en": "What is the chemical name and formula of Baking Soda?"
+    },
+    "options": {
+      "hi": {
+        "A": "कैल्शियम कार्बोनेट (CaCO₃)",
+        "B": "सोडियम हाइड्रॉक्साइड (NaOH)",
+        "C": "सोडियम हाइड्रोजनकार्बोनेट (NaHCO₃)",
+        "D": "सोडियम कार्बोनेट (Na₂CO₃)"
+      },
+      "en": {
+        "A": "Calcium carbonate (CaCO₃)",
+        "B": "Sodium hydroxide (NaOH)",
+        "C": "Sodium hydrogencarbonate (NaHCO₃)",
+        "D": "Sodium carbonate (Na₂CO₃)"
+      }
+    },
+    "correct_option": "C",
+    "explanation": {
+      "hi": "बेकिंग सोडा का रासायनिक नाम सोडियम बाइकार्बोनेट / सोडियम हाइड्रोजन कार्बोनेट (NaHCO₃) है।",
+      "en": "Baking soda is Sodium Hydrogen Carbonate (NaHCO₃)."
+    }
+  },
+  {
+    "id": "q_sci_c2_003",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b2",
+    "chapter_id": "sci_c2",
+    "topic_id": "sci_c2_t3",
+    "difficulty": "Medium",
+    "question": {
+      "hi": "धोने का सोडा (Washing Soda) का सही रासायनिक सूत्र क्या है?",
+      "en": "What is the correct chemical formula of Washing Soda?"
+    },
+    "options": {
+      "hi": {
+        "A": "Na₂CO₃·10H₂O",
+        "B": "CaOCl₂",
+        "C": "CaSO₄·2H₂O",
+        "D": "NaHCO₃"
+      },
+      "en": {
+        "A": "Na₂CO₃·10H₂O",
+        "B": "CaOCl₂",
+        "C": "CaSO₄·2H₂O",
+        "D": "NaHCO₃"
+      }
+    },
+    "correct_option": "A",
+    "explanation": {
+      "hi": "धोने के सोडे का सूत्र सोडियम कार्बोनेट डेकाहाइड्रेट (Na₂CO₃·10H₂O) होता है।",
+      "en": "Washing soda is Sodium Carbonate Decahydrate (Na₂CO₃·10H₂O)."
+    }
+  },
+  {
+    "id": "q_sci_c3_002",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b2",
+    "chapter_id": "sci_c3",
+    "topic_id": "sci_c3_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "विद्युत की सबसे अच्छी सुचालक धातु कौन-सी है?",
+      "en": "Which metal is the best conductor of electricity?"
+    },
+    "options": {
+      "hi": {
+        "A": "सोना (Gold)",
+        "B": "तांबा (Copper)",
+        "C": "एल्युमिनियम",
+        "D": "चाँदी (Silver / Ag)"
+      },
+      "en": {
+        "A": "Gold",
+        "B": "Copper",
+        "C": "Aluminium",
+        "D": "Silver (Ag)"
+      }
+    },
+    "correct_option": "D",
+    "explanation": {
+      "hi": "चाँदी (Ag) विद्युत और ऊष्मा की सर्वोत्तम सुचालक धातु है।",
+      "en": "Silver is the best conductor of electricity and heat."
+    }
+  },
+  {
+    "id": "q_sci_c3_003",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b2",
+    "chapter_id": "sci_c3",
+    "topic_id": "sci_c3_t2",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "सोडियम को किस द्रव में डुबोकर रखा जाता है?",
+      "en": "In which liquid is Sodium metal stored submerged?"
+    },
+    "options": {
+      "hi": {
+        "A": "केरोसिन तेल में (मिट्टी का तेल)",
+        "B": "पेट्रोल में",
+        "C": "जल में",
+        "D": "अल्कोहॉल में"
+      },
+      "en": {
+        "A": "In Kerosene oil",
+        "B": "In Petrol",
+        "C": "In water",
+        "D": "In Alcohol"
+      }
+    },
+    "correct_option": "A",
+    "explanation": {
+      "hi": "सोडियम अत्यधिक क्रियाशील धातु है जो हवा और पानी के संपर्क में आने पर आग पकड़ लेती है, इसलिए इसे केरोसिन में डुबोकर रखते हैं।",
+      "en": "Sodium vigorously reacts with oxygen and water, so it is stored under kerosene oil."
+    }
+  },
+  {
+    "id": "q_sci_c4_002",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b2",
+    "chapter_id": "sci_c4",
+    "topic_id": "sci_c4_t2",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "प्राकृतिक गैस (CNG) का मुख्य घटक क्या है?",
+      "en": "What is the main component of Natural Gas (CNG)?"
+    },
+    "options": {
+      "hi": {
+        "A": "प्रोपेन",
+        "B": "ब्यूटेन",
+        "C": "मीथेन (CH₄)",
+        "D": "एथेन"
+      },
+      "en": {
+        "A": "Propane",
+        "B": "Butane",
+        "C": "Methane (CH₄)",
+        "D": "Ethane"
+      }
+    },
+    "correct_option": "C",
+    "explanation": {
+      "hi": "प्राकृतिक गैस और बायोगैस का मुख्य घटक मीथेन (CH₄) होता है। LPG का मुख्य घटक ब्यूटेन है।",
+      "en": "Methane is the chief component of Natural Gas (CNG)."
+    }
+  },
+  {
+    "id": "q_sci_c6_002",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b3",
+    "chapter_id": "sci_c6",
+    "topic_id": "sci_c6_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "क्लोरोफिल वर्णक (Chlorophyll pigment) का रंग कैसा होता है?",
+      "en": "What color is the chlorophyll pigment?"
+    },
+    "options": {
+      "hi": {
+        "A": "लाल",
+        "B": "पीला",
+        "C": "सफेद",
+        "D": "हरा (Green)"
+      },
+      "en": {
+        "A": "Red",
+        "B": "Yellow",
+        "C": "White",
+        "D": "Green"
+      }
+    },
+    "correct_option": "D",
+    "explanation": {
+      "hi": "क्लोरोफिल वर्णक का रंग हरा होता है जिसमें मैग्नीशियम (Mg) धातु पाई जाती है।",
+      "en": "Chlorophyll is green in color and contains Magnesium."
+    }
+  },
+  {
+    "id": "q_sci_c6_003",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b3",
+    "chapter_id": "sci_c6",
+    "topic_id": "sci_c6_t2",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "वायवीय श्वसन (Aerobic Respiration) कोशिका के किस भाग में संपन्न होता है?",
+      "en": "In which part of the cell does Aerobic Respiration take place?"
+    },
+    "options": {
+      "hi": {
+        "A": "केंद्रक",
+        "B": "हरितलवक",
+        "C": "माइटोकॉन्ड्रिया (Mitochondria)",
+        "D": "कोशिकाद्रव्य"
+      },
+      "en": {
+        "A": "Nucleus",
+        "B": "Chloroplast",
+        "C": "Mitochondria",
+        "D": "Cytoplasm"
+      }
+    },
+    "correct_option": "C",
+    "explanation": {
+      "hi": "पाइरुवेट का पूर्ण विखंडन ऑक्सीजन की उपस्थिति में माइटोकॉन्ड्रिया में होता है। इसे कोशिका का पावर हाउस कहते हैं।",
+      "en": "Mitochondria is the site of aerobic respiration (powerhouse of cell)."
+    }
+  },
+  {
+    "id": "q_sci_c7_002",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b3",
+    "chapter_id": "sci_c7",
+    "topic_id": "sci_c7_t3",
+    "difficulty": "Medium",
+    "question": {
+      "hi": "इंसुलिन हार्मोन की कमी से कौन-सा रोग होता है?",
+      "en": "Deficiency of Insulin hormone causes which disease?"
+    },
+    "options": {
+      "hi": {
+        "A": "घेंघा (गलगंड)",
+        "B": "मधुमेह (Diabetes)",
+        "C": "एनीमिया",
+        "D": "रतौंधी"
+      },
+      "en": {
+        "A": "Goitre",
+        "B": "Diabetes (Madhumeh)",
+        "C": "Anaemia",
+        "D": "Night blindness"
+      }
+    },
+    "correct_option": "B",
+    "explanation": {
+      "hi": "अग्न्याशय द्वारा स्रावित इंसुलिन रक्त में शर्करा को नियंत्रित करता है। इसकी कमी से मधुमेह (Diabetes) होता है। आयोडीन कमी से घेंघा होता है।",
+      "en": "Insulin deficiency leads to Diabetes mellitus."
+    }
+  },
+  {
+    "id": "q_sci_c8_002",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "science",
+    "book_id": "sci_b3",
+    "chapter_id": "sci_c8",
+    "topic_id": "sci_c8_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "हाइड्रा और यीस्ट में अलैंगिक जनन की मुख्य विधि क्या है?",
+      "en": "What is the primary method of asexual reproduction in Hydra and Yeast?"
+    },
+    "options": {
+      "hi": {
+        "A": "बीजाणुजनन",
+        "B": "द्विखंडन",
+        "C": "पुनर्जनन",
+        "D": "मुकुलन (Budding)"
+      },
+      "en": {
+        "A": "Spore formation",
+        "B": "Binary fission",
+        "C": "Regeneration",
+        "D": "Budding"
+      }
+    },
+    "correct_option": "D",
+    "explanation": {
+      "hi": "हाइड्रा और यीस्ट में मुकुलन (Budding) द्वारा जनक शरीर पर एक उभार (मुकुल) बनकर नया जीव बनता है।",
+      "en": "Hydra and Yeast reproduce asexually by budding."
+    }
+  },
+  {
+    "id": "q_sst_hist_c5_01",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "social",
+    "book_id": "sst_b1",
+    "chapter_id": "hist_c5",
+    "topic_id": "hist_c5_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "सेफ्टी लैंप (Safety Lamp) का आविष्कार किसने किया था?",
+      "en": "Who invented the Safety Lamp for coal miners?"
+    },
+    "options": {
+      "hi": {
+        "A": "रिचर्ड आर्कराइट",
+        "B": "जॉन के",
+        "C": "हम्फ्री डेवी (Humphry Davy)",
+        "D": "जेम्स वाट"
+      },
+      "en": {
+        "A": "Richard Arkwright",
+        "B": "John Kay",
+        "C": "Humphry Davy",
+        "D": "James Watt"
+      }
+    },
+    "correct_option": "C",
+    "explanation": {
+      "hi": "1815 में हम्फ्री डेवी ने खानों में काम करने वाले मजदूरों की सुरक्षा के लिए 'सेफ्टी लैंप' का आविष्कार किया।",
+      "en": "Humphry Davy invented the Safety Lamp in 1815."
+    }
+  },
+  {
+    "id": "q_sst_hist_c5_02",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "social",
+    "book_id": "sst_b1",
+    "chapter_id": "hist_c5",
+    "topic_id": "hist_c5_t1",
+    "difficulty": "Medium",
+    "question": {
+      "hi": "टाटा आयरन एंड स्टील कंपनी (TISCO) की स्थापना जमशेदजी टाटा ने किस वर्ष जमशेदपुर (साकची) में की थी?",
+      "en": "In which year did Jamsetji Tata establish TISCO at Jamshedpur?"
+    },
+    "options": {
+      "hi": {
+        "A": "1854",
+        "B": "1907 (1907 ई.)",
+        "C": "1923",
+        "D": "1915"
+      },
+      "en": {
+        "A": "1854",
+        "B": "1907",
+        "C": "1923",
+        "D": "1915"
+      }
+    },
+    "correct_option": "B",
+    "explanation": {
+      "hi": "1907 में जमशेदजी टाटा द्वारा साकची (वर्तमान जमशेदपुर) में भारत के पहले आधुनिक इस्पात कारखाने TISCO की स्थापना की गई।",
+      "en": "TISCO was founded in 1907 at Sakchi (Jamshedpur)."
+    }
+  },
+  {
+    "id": "q_sst_hist_c6_01",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "social",
+    "book_id": "sst_b1",
+    "chapter_id": "hist_c6",
+    "topic_id": "hist_c6_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "पटना के गोलघर का निर्माण किस मुख्य उद्देश्य से कैप्टन जॉन गार्स्टिन द्वारा 1786 में कराया गया था?",
+      "en": "Golghar in Patna was built in 1786 for which main purpose?"
+    },
+    "options": {
+      "hi": {
+        "A": "पूजा स्थल",
+        "B": "अनाज भंडारण (Grain Storage)",
+        "C": "सैनिक छावनी",
+        "D": "हथियार रखने"
+      },
+      "en": {
+        "A": "Temple",
+        "B": "Grain Storage against famine",
+        "C": "Military barracks",
+        "D": "Armory"
+      }
+    },
+    "correct_option": "B",
+    "explanation": {
+      "hi": "1770 के भयंकर अकाल के बाद ब्रिटिश सरकार ने अनाज के सुरक्षित भंडारण के लिए गोलघर का निर्माण करवाया था।",
+      "en": "Golghar was constructed in 1786 as a granary after the 1770 famine."
+    }
+  },
+  {
+    "id": "q_sst_geo_c1_02",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "social",
+    "book_id": "sst_b2",
+    "chapter_id": "geo_c1",
+    "topic_id": "geo_c1_t4",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "भारत का प्रथम परमाणु ऊर्जा उत्पादन केंद्र (First Atomic Power Station) कहाँ स्थापित किया गया था?",
+      "en": "Where was India's first Nuclear Power Station established?"
+    },
+    "options": {
+      "hi": {
+        "A": "कलपक्कम (तमिलनाडु)",
+        "B": "नरौरा (उत्तर प्रदेश)",
+        "C": "रावतभाटा (राजस्थान)",
+        "D": "तारापुर (महाराष्ट्र - 1969)"
+      },
+      "en": {
+        "A": "Kalpakkam",
+        "B": "Narora",
+        "C": "Rawatbhata",
+        "D": "Tarapur (Maharashtra)"
+      }
+    },
+    "correct_option": "D",
+    "explanation": {
+      "hi": "तारापुर (महाराष्ट्र) में 1969 में भारत का पहला परमाणु विद्युत गृह स्थापित किया गया।",
+      "en": "Tarapur in Maharashtra is India's first nuclear power station."
+    }
+  },
+  {
+    "id": "q_sst_geo_c1_03",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "social",
+    "book_id": "sst_b2",
+    "chapter_id": "geo_c1",
+    "topic_id": "geo_c1_t5",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "भारत में सबसे पुराना तेल का कुआँ (First Oil Refinery/Well) कहाँ स्थित है?",
+      "en": "Where is the oldest oilfield / refinery in India located?"
+    },
+    "options": {
+      "hi": {
+        "A": "बॉम्बे हाई",
+        "B": "डिगबोई (असम - Digboi)",
+        "C": "बरौनी (बिहार)",
+        "D": "अंकलेश्वर (गुजरात)"
+      },
+      "en": {
+        "A": "Bombay High",
+        "B": "Digboi (Assam)",
+        "C": "Barauni",
+        "D": "Ankleshwar"
+      }
+    },
+    "correct_option": "B",
+    "explanation": {
+      "hi": "डिगबोई (असम) भारत का सबसे प्राचीन तेल क्षेत्र है जहाँ 1901 में पहली तेल रिफाइनरी शुरू हुई थी।",
+      "en": "Digboi in Assam is India's oldest operating oilfield and refinery."
+    }
+  },
+  {
+    "id": "q_sst_geo_c3_01",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "social",
+    "book_id": "sst_b2",
+    "chapter_id": "geo_c3",
+    "topic_id": "geo_c3_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "भारत में पहली सूती वस्त्र मिल 1854 में कहाँ स्थापित की गई थी?",
+      "en": "Where was the first successful cotton textile mill established in India in 1854?"
+    },
+    "options": {
+      "hi": {
+        "A": "अहमदाबाद",
+        "B": "सूरत",
+        "C": "कोलकाता",
+        "D": "मुंबई (Mumbai)"
+      },
+      "en": {
+        "A": "Ahmedabad",
+        "B": "Surat",
+        "C": "Kolkata",
+        "D": "Mumbai"
+      }
+    },
+    "correct_option": "D",
+    "explanation": {
+      "hi": "कावासजी डाबर द्वारा 1854 में मुंबई में भारत की पहली आधुनिक और सफल सूती वस्त्र मिल स्थापित की गई थी।",
+      "en": "The first modern cotton mill was established in Mumbai in 1854."
+    }
+  },
+  {
+    "id": "q_sst_eco_c3_01",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "social",
+    "book_id": "sst_b5",
+    "chapter_id": "eco_c3",
+    "topic_id": "eco_c3_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "निम्नलिखित में से कौन 'प्लास्टिक मुद्रा' (Plastic Money) का रूप है?",
+      "en": "Which of the following is an example of 'Plastic Money'?"
+    },
+    "options": {
+      "hi": {
+        "A": "चेक",
+        "B": "कागजी नोट",
+        "C": "एटीएम / डेबिट-क्रेडिट कार्ड (ATM / Debit Card)",
+        "D": "ड्राफ्ट"
+      },
+      "en": {
+        "A": "Cheque",
+        "B": "Currency notes",
+        "C": "ATM / Debit-Credit Card",
+        "D": "Bank Draft"
+      }
+    },
+    "correct_option": "C",
+    "explanation": {
+      "hi": "डेबिट कार्ड, क्रेडिट कार्ड और एटीएम कार्ड को प्लास्टिक मुद्रा कहा जाता है।",
+      "en": "Debit and Credit cards are forms of Plastic Money."
+    }
+  },
+  {
+    "id": "q_sst_eco_c4_02",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "social",
+    "book_id": "sst_b5",
+    "chapter_id": "eco_c4",
+    "topic_id": "eco_c4_t1",
+    "difficulty": "Medium",
+    "question": {
+      "hi": "स्वयं सहायता समूह (Self Help Group - SHG) में सामान्यतः कितने सदस्य होते हैं?",
+      "en": "Typically, how many members are there in a Self Help Group (SHG)?"
+    },
+    "options": {
+      "hi": {
+        "A": "50 से 100",
+        "B": "5 से 10",
+        "C": "100 से अधिक",
+        "D": "15 से 20 सदस्य"
+      },
+      "en": {
+        "A": "50 to 100",
+        "B": "5 to 10",
+        "C": "More than 100",
+        "D": "15 to 20 members"
+      }
+    },
+    "correct_option": "D",
+    "explanation": {
+      "hi": "स्वयं सहायता समूह में मुख्यतः ग्रामीण महिलाओं के 15-20 सदस्य होते हैं जो नियमित बचत करते हैं।",
+      "en": "An SHG typically comprises 15-20 members, mainly rural women."
+    }
+  },
+  {
+    "id": "q_sst_eco_c7_02",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "social",
+    "book_id": "sst_b5",
+    "chapter_id": "eco_c7",
+    "topic_id": "eco_c7_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "सोने के आभूषणों की शुद्धता सुनिश्चित करने के लिए किस मानक चिह्न (Standard Mark) की पहचान आवश्यक है?",
+      "en": "Which standard certification mark ensures the purity of gold jewelry in India?"
+    },
+    "options": {
+      "hi": {
+        "A": "हॉलमार्क (Hallmark)",
+        "B": "एगमार्क (Agmark)",
+        "C": "सिल्क मार्क",
+        "D": "ISI मार्क"
+      },
+      "en": {
+        "A": "Hallmark (BIS)",
+        "B": "Agmark",
+        "C": "Silk Mark",
+        "D": "ISI Mark"
+      }
+    },
+    "correct_option": "A",
+    "explanation": {
+      "hi": "स्वर्ण आभूषणों की गुणवत्ता के लिए हॉलमार्क (BIS Hallmark), कृषि उत्पादों के लिए एगमार्क और औद्योगिक सामान के लिए ISI मार्क होता है।",
+      "en": "Hallmark certifies the purity and standard of gold jewelry."
+    }
+  },
+  {
+    "id": "q_hin_c8_01",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "hindi",
+    "book_id": "hin_b1",
+    "chapter_id": "hin_c8",
+    "topic_id": "hin_c8_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "'जित-जित मैं निरखत हूँ' पाठ में पंडित बिरजू महाराज का संबंध किस प्रसिद्ध शास्त्रीय नृत्य से है?",
+      "en": "In 'Jit-Jit Main Nirkhat Hun', Pandit Birju Maharaj is associated with which classical dance?"
+    },
+    "options": {
+      "hi": {
+        "A": "कथक (Kathak - लखनऊ घराना)",
+        "B": "कुचिपुड़ी",
+        "C": "ओडिसी",
+        "D": "भरतनाट्यम"
+      },
+      "en": {
+        "A": "Kathak (Lucknow Gharana)",
+        "B": "Kuchipudi",
+        "C": "Odissi",
+        "D": "Bharatnatyam"
+      }
+    },
+    "correct_option": "A",
+    "explanation": {
+      "hi": "पंडित बिरजू महाराज लखनऊ कालका-बिंदादीन घराने के विश्वप्रसिद्ध कथक नर्तक थे।",
+      "en": "Pandit Birju Maharaj is the maestro of classical Kathak dance."
+    }
+  },
+  {
+    "id": "q_hin_c9_01",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "hindi",
+    "book_id": "hin_b1",
+    "chapter_id": "hin_c9",
+    "topic_id": "hin_c9_t1",
+    "difficulty": "Medium",
+    "question": {
+      "hi": "'आविन्यों' किस देश में स्थित एक प्राचीन कला केंद्र है?",
+      "en": "In which country is 'Avignon', an ancient art center, situated?"
+    },
+    "options": {
+      "hi": {
+        "A": "फ्रांस (रोन नदी तट, दक्षिणी फ्रांस)",
+        "B": "इटली",
+        "C": "इंग्लैंड",
+        "D": "जर्मनी"
+      },
+      "en": {
+        "A": "France (Rhone river, Southern France)",
+        "B": "Italy",
+        "C": "England",
+        "D": "Germany"
+      }
+    },
+    "correct_option": "A",
+    "explanation": {
+      "hi": "आविन्यों दक्षिणी फ्रांस में रोन नदी के किनारे स्थित एक मध्ययुगीन ईसाई कला केंद्र है।",
+      "en": "Avignon is located along the Rhone river in Southern France."
+    }
+  },
+  {
+    "id": "q_hin_c10_01",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "hindi",
+    "book_id": "hin_b1",
+    "chapter_id": "hin_c10",
+    "topic_id": "hin_c10_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "'मछली' कहानी में लेखक विनोद कुमार शुक्ल के साथ कौन मछली को कुएँ में डालने के लिए लेकर भागा था?",
+      "en": "In the story 'Machhli', who ran with the fish to put it in the well?"
+    },
+    "options": {
+      "hi": {
+        "A": "नरेन",
+        "B": "मोहरा",
+        "C": "सन्तू (Santu)",
+        "D": "भग्गू"
+      },
+      "en": {
+        "A": "Naren",
+        "B": "Mohra",
+        "C": "Santu",
+        "D": "Bhaggu"
+      }
+    },
+    "correct_option": "C",
+    "explanation": {
+      "hi": "सन्तू मछली के कटने के डर से एक जीवित मछली लेकर कुएँ में डालने के लिए भाग निकला था।",
+      "en": "Santu ran away with the fish to save its life in the well."
+    }
+  },
+  {
+    "id": "q_hin_c12_01",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "hindi",
+    "book_id": "hin_b1",
+    "chapter_id": "hin_c12",
+    "topic_id": "hin_c12_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "महात्मा गांधी के अनुसार 'शिक्षा और संस्कृति' में बढ़िया शिक्षा किसे कहा गया है?",
+      "en": "According to Mahatma Gandhi, which is the best form of education?"
+    },
+    "options": {
+      "hi": {
+        "A": "धार्मिक कट्टरता",
+        "B": "केवल किताबी ज्ञान",
+        "C": "अंग्रेजी माध्यम शिक्षा",
+        "D": "अहिंसक प्रतिरोध एवं दस्तकारी आधारित व्यावहारिक शिक्षा"
+      },
+      "en": {
+        "A": "Dogmatic education",
+        "B": "Rote book learning",
+        "C": "English medium education",
+        "D": "Non-violent resistance & craft-based practical education"
+      }
+    },
+    "correct_option": "D",
+    "explanation": {
+      "hi": "गांधीजी ने चरित्र निर्माण और बुनियादी दस्तकारी (हस्तशिल्प) आधारित स्वावलंबी शिक्षा को सर्वोत्तम माना।",
+      "en": "Gandhiji advocated practical, craft-based, and character-building education."
+    }
+  },
+  {
+    "id": "q_hin_c14_01",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "hindi",
+    "book_id": "hin_b1",
+    "chapter_id": "hin_c14",
+    "topic_id": "hin_c14_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "'प्रेम अयनि श्री राधिका' और 'करील के कुंजन ऊपर वारौं' सवैये किस भक्त कवि द्वारा रचित हैं?",
+      "en": "Who is the poet of the Krishna-bhakti verses 'Prem Ayani Shri Radhika'?"
+    },
+    "options": {
+      "hi": {
+        "A": "रसखान (Raskhan)",
+        "B": "बिहारी",
+        "C": "तुलसीदास",
+        "D": "सूरदास"
+      },
+      "en": {
+        "A": "Raskhan",
+        "B": "Bihari",
+        "C": "Tulsidas",
+        "D": "Surdas"
+      }
+    },
+    "correct_option": "A",
+    "explanation": {
+      "hi": "रसखान कृष्ण भक्ति शाखा के प्रसिद्ध मुस्लिम कवि थे जिन्होंने ब्रजभूमि और श्रीकृष्ण पर सुंदर सवैये लिखे।",
+      "en": "Raskhan is the celebrated Krishna devotee poet of medieval Hindi literature."
+    }
+  },
+  {
+    "id": "q_eng_c6_01",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "english",
+    "book_id": "eng_b1",
+    "chapter_id": "eng_c6",
+    "topic_id": "eng_c6_t1",
+    "difficulty": "Medium",
+    "question": {
+      "hi": "नोबेल पुरस्कार विजेता टोनी मॉरिसन (Toni Morrison) के निबंध 'Once Upon a Time' में बूढ़ी अंधी महिला को किसका प्रतीक माना गया है?",
+      "en": "In Toni Morrison's Nobel lecture 'Once Upon a Time', what does the old blind woman symbolize?"
+    },
+    "options": {
+      "hi": {
+        "A": "गुलामी का",
+        "B": "बुद्धिमता और भाषा के रक्षक (Wisdom & Living Language)",
+        "C": "धन का",
+        "D": "युद्ध का"
+      },
+      "en": {
+        "A": "Slavery",
+        "B": "Wisdom & Living Language as an instrument of agency",
+        "C": "Wealth",
+        "D": "War"
+      }
+    },
+    "correct_option": "B",
+    "explanation": {
+      "hi": "टोनी मॉरिसन ने निबंध में भाषा को एक जीवित पक्षी और बूढ़ी अंधी महिला को भाषा के संवेदनशील संरक्षक के रूप में प्रस्तुत किया है।",
+      "en": "Toni Morrison portrays language as a living bird and the wise woman as its guardian."
+    }
+  },
+  {
+    "id": "q_eng_c8_01",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "english",
+    "book_id": "eng_b1",
+    "chapter_id": "eng_c8",
+    "topic_id": "eng_c8_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "'Little Girls Wiser Than Men' कहानी के लेखक कौन हैं?",
+      "en": "Who is the author of the story 'Little Girls Wiser Than Men'?"
+    },
+    "options": {
+      "hi": {
+        "A": "एंटोन चेखव",
+        "B": "आर.सी. हचिंसन",
+        "C": "लियो टॉल्स्टॉय (Leo Tolstoy)",
+        "D": "जॉन गाल्सवर्दी"
+      },
+      "en": {
+        "A": "Anton Chekhov",
+        "B": "R.C. Hutchinson",
+        "C": "Leo Tolstoy",
+        "D": "John Galsworthy"
+      }
+    },
+    "correct_option": "C",
+    "explanation": {
+      "hi": "महान रूसी लेखक लियो टॉल्स्टॉय ने इस कहानी में दो बच्चियों अकुल्या और मलाशा की बाल सुलभ मासूमियत का चित्रण किया है।",
+      "en": "Russian master Leo Tolstoy wrote 'Little Girls Wiser Than Men'."
+    }
+  },
+  {
+    "id": "q_eng_p2_01",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "english",
+    "book_id": "eng_b1",
+    "chapter_id": "eng_p2",
+    "topic_id": "eng_p2_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "एलेक्जेंडर पोप (Alexander Pope) की प्रसिद्ध कविता 'Ode on Solitude' में सुखी मनुष्य की क्या विशेषता है?",
+      "en": "In Alexander Pope's 'Ode on Solitude', what characterizes a truly happy man?"
+    },
+    "options": {
+      "hi": {
+        "A": "जिसके पास बहुत धन हो",
+        "B": "जो अपने पैतृक कुछ एकड़ जमीन पर शांत जीवन जीता है",
+        "C": "जो विदेश यात्रा करता है",
+        "D": "जो राजा का मंत्री हो"
+      },
+      "en": {
+        "A": "One who has massive wealth",
+        "B": "One content to breathe native air on a few paternal acres",
+        "C": "One who travels abroad",
+        "D": "One who is a king's minister"
+      }
+    },
+    "correct_option": "B",
+    "explanation": {
+      "hi": "कविता में कवि कहते हैं कि सुखी मनुष्य वही है जो अपनी पैतृक भूमि पर सादगी, संतोष और शांति से जीता है।",
+      "en": "The happy man is content with his few paternal acres, bread from his ground, and quiet mind."
+    }
+  },
+  {
+    "id": "q_eng_p7_01",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "english",
+    "book_id": "eng_b1",
+    "chapter_id": "eng_p7",
+    "topic_id": "eng_p7_t1",
+    "difficulty": "Medium",
+    "question": {
+      "hi": "लक्ष्मी प्रसाद देवकोटा की कविता 'The Sleeping Porter' में कुली (Porter) अपनी पीठ पर कितने किलो का भार उठाता है?",
+      "en": "In Laxmi Prasad Devkota's poem 'The Sleeping Porter', how heavy is the load on the porter's back?"
+    },
+    "options": {
+      "hi": {
+        "A": "50 किलो",
+        "B": "25 किलो (25 kilo load)",
+        "C": "15 किलो",
+        "D": "10 किलो"
+      },
+      "en": {
+        "A": "50 kg",
+        "B": "25 kilo load",
+        "C": "15 kg",
+        "D": "10 kg"
+      }
+    },
+    "correct_option": "B",
+    "explanation": {
+      "hi": "नेपाली कवि लक्ष्मी प्रसाद देवकोटा ने कुली के संघर्ष का वर्णन करते हुए 25 किलो के भारी बोझ के साथ बर्फीले पहाड़ों की चढ़ाई का उल्लेख किया है।",
+      "en": "The porter carries a 25 kilo load on his back up the mountain cliff."
+    }
+  },
+  {
+    "id": "q_eng_s6_01",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "english",
+    "book_id": "eng_b2",
+    "chapter_id": "eng_s6",
+    "topic_id": "eng_s6_t1",
+    "difficulty": "Medium",
+    "question": {
+      "hi": "'Two Horizons' (बीणापाणि मोहंती) कहानी में पत्राचार किन दो पात्रों के बीच होता है?",
+      "en": "In Binapani Mohanty's story 'Two Horizons', between whom does the exchange of letters take place?"
+    },
+    "options": {
+      "hi": {
+        "A": "माँ और पुत्री (Mother and Daughter)",
+        "B": "पति और पत्नी",
+        "C": "पिता और पुत्र",
+        "D": "दो मित्र"
+      },
+      "en": {
+        "A": "Mother and Daughter",
+        "B": "Husband and wife",
+        "C": "Father and son",
+        "D": "Two friends"
+      }
+    },
+    "correct_option": "A",
+    "explanation": {
+      "hi": "उड़िया कहानी 'Two Horizons' में एक विवाहित बेटी और उसकी माँ के बीच भावनात्मक पत्रों का आदान-प्रदान होता है।",
+      "en": "The story consists of intimate and emotional letters exchanged between a daughter and her mother."
+    }
+  },
+  {
+    "id": "q_san_c2_02",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "sanskrit",
+    "book_id": "san_b1",
+    "chapter_id": "san_c2",
+    "topic_id": "san_c2_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "सिखों के दसवें गुरु गोविंद सिंह का जन्म स्थान कहाँ है?",
+      "en": "Where is the birthplace of the 10th Sikh Guru, Guru Gobind Singh?"
+    },
+    "options": {
+      "hi": {
+        "A": "अमृतसर",
+        "B": "पटना (पाटलिपुत्र - तख्त श्री हरमंदिर जी)",
+        "C": "आनंदपुर",
+        "D": "वाराणसी"
+      },
+      "en": {
+        "A": "Amritsar",
+        "B": "Patna (Takht Sri Harmandir Ji Sahib)",
+        "C": "Anandpur",
+        "D": "Varanasi"
+      }
+    },
+    "correct_option": "B",
+    "explanation": {
+      "hi": "सिखों के दसवें गुरु, गुरु गोविंद सिंह जी का जन्म पाटलिपुत्र (पटना) में हुआ था जहाँ 'तख्त श्री हरमंदिर जी साहिब' स्थित है।",
+      "en": "Guru Gobind Singh, the 10th Sikh Guru, was born in Patna."
+    }
+  },
+  {
+    "id": "q_san_c5_01",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "sanskrit",
+    "book_id": "san_b1",
+    "chapter_id": "san_c5",
+    "topic_id": "san_c5_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "'गायन्ति देवाः किल गीतकानि धन्यास्तु ते भारतभूमिभागे...' यह प्रसिद्ध श्लोक किस पुराण से संकलित है?",
+      "en": "From which Purana is the verse 'Gayanti devah kila gitakani...' praising India taken?"
+    },
+    "options": {
+      "hi": {
+        "A": "विष्णुपुराण (Vishnu Purana)",
+        "B": "मत्स्यपुराण",
+        "C": "अग्निपुराण",
+        "D": "भागवतपुराण"
+      },
+      "en": {
+        "A": "Vishnu Purana",
+        "B": "Matsya Purana",
+        "C": "Agni Purana",
+        "D": "Bhagavata Purana"
+      }
+    },
+    "correct_option": "A",
+    "explanation": {
+      "hi": "'भारतमहिमा' पाठ का पहला श्लोक विष्णुपुराण से लिया गया है जिसमें देवता भी भारत में जन्म लेने वाले मनुष्यों की स्तुति करते हैं।",
+      "en": "This verse in 'Bharatamahima' is taken from Vishnu Purana."
+    }
+  },
+  {
+    "id": "q_san_c9_02",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "sanskrit",
+    "book_id": "san_b1",
+    "chapter_id": "san_c9",
+    "topic_id": "san_c9_t1",
+    "difficulty": "Easy",
+    "question": {
+      "hi": "स्वामी दयानंद के बचपन का नाम क्या था?",
+      "en": "What was the childhood name of Swami Dayanand Saraswati?"
+    },
+    "options": {
+      "hi": {
+        "A": "शिवशंकर",
+        "B": "गौरीशंकर",
+        "C": "दयाशंकर",
+        "D": "मूलशंकर (Moolshankar)"
+      },
+      "en": {
+        "A": "Shivshankar",
+        "B": "Gaurishankar",
+        "C": "Dayashankar",
+        "D": "Moolshankar"
+      }
+    },
+    "correct_option": "D",
+    "explanation": {
+      "hi": "स्वामी दयानंद का जन्म गुजरात के टंकारा ग्राम में हुआ था और उनके बचपन का नाम मूलशंकर था।",
+      "en": "Swami Dayanand's childhood name was Moolshankar."
+    }
+  },
+  {
+    "id": "q_san_c10_01",
+    "board": "BSEB",
+    "class": "10",
+    "subject_id": "sanskrit",
+    "book_id": "san_b1",
+    "chapter_id": "san_c10",
+    "topic_id": "san_c10_t1",
+    "difficulty": "Medium",
+    "question": {
+      "hi": "'मन्दाकिनीवर्णनम्' पाठ महर्षि वाल्मीकि रचित रामायण के किस काण्ड से संकलित है?",
+      "en": "From which Kand of Valmiki Ramayana is 'Mandakini Varnanam' compiled?"
+    },
+    "options": {
+      "hi": {
+        "A": "किष्किन्धाकाण्ड",
+        "B": "अयोध्याकाण्ड (सर्ग 95)",
+        "C": "अरण्यकाण्ड",
+        "D": "बालकाण्ड"
+      },
+      "en": {
+        "A": "Kishkindha Kanda",
+        "B": "Ayodhya Kanda (Canto 95)",
+        "C": "Aranya Kanda",
+        "D": "Bala Kanda"
+      }
+    },
+    "correct_option": "B",
+    "explanation": {
+      "hi": "'मन्दाकिनीवर्णनम्' वाल्मीकि रामायण के अयोध्याकाण्ड के 95वें सर्ग से संकलित है जिसमें श्रीराम चित्रकूट में सीता को मंदाकिनी नदी दिखाते हैं।",
+      "en": "Mandakini Varnanam is taken from Ayodhya Kanda (Canto 95) of Valmiki Ramayana."
+    }
   }
 ];
