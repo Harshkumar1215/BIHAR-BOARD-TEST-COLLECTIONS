@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>कक्षा 10 बिहार बोर्ड MCQ अभ्यास मंच | Class 10 BSEB MCQ Practice Platform</title>
+  <meta name="description" content="Class 10 Bihar Board (BSEB) MCQ Practice Platform with complete syllabus coverage in Hindi and English medium. Practice Mathematics, Science, Social Science, Hindi, English and Sanskrit.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ====== HEADER ====== -->
+  <header class="glass">
+    <div style="max-width:1200px;margin:0 auto;padding:0.65rem 1rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;">
+
+      <!-- Logo -->
+      <div style="display:flex;align-items:center;gap:0.75rem;cursor:pointer;" onclick="App.goHome()">
+        <div class="logo-icon">📖</div>
+        <div>
+          <div style="font-weight:800;font-size:1rem;line-height:1.2;">BSEB MCQ</div>
+          <div style="font-size:0.7rem;color:var(--text-muted);line-height:1;">Class 10 Bihar Board</div>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <nav style="display:flex;align-items:center;gap:0.25rem;flex-wrap:wrap;" id="main-nav">
+        <span class="nav-link active" data-view="home" onclick="App.goHome()">🏠</span>
+        <span class="nav-link" data-view="dashboard" onclick="App.showView('dashboard')">📊 <span class="nav-text">Dashboard</span></span>
+        <span class="nav-link" data-view="analytics" onclick="App.showView('analytics')">📈 <span class="nav-text">Analytics</span></span>
+        <span class="nav-link" data-view="recommendations" onclick="App.showView('recommendations')">🎯 <span class="nav-text">Suggest</span></span>
+        <span class="nav-link" data-view="history" onclick="App.showView('history')">📋 <span class="nav-text">History</span></span>
+        <span class="nav-link" data-view="search" onclick="App.showView('search')">🔍</span>
+      </nav>
+
+      <!-- Language Switcher -->
+      <div style="display:flex;align-items:center;gap:0.35rem;">
+        <button class="lang-btn medium-btn active" data-lang="hi" onclick="App.setLanguage('hi')">हिंदी</button>
+        <button class="lang-btn medium-btn" data-lang="en" onclick="App.setLanguage('en')">English</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ====== MAIN CONTENT ====== -->
+  <main id="main-content" style="flex:1;">
+    <!-- Dynamic content rendered here by App.js -->
+    <div style="text-align:center;padding:3rem;color:var(--text-muted);">Loading...</div>
+  </main>
+
+  <!-- ====== MODAL CONTAINER ====== -->
+  <div id="modal-container"></div>
+
+  <!-- ====== FOOTER ====== -->
+  <footer style="border-top:1px solid var(--border-color);padding:1rem;text-align:center;color:var(--text-muted);font-size:0.78rem;">
+    <p>बिहार विद्यालय परीक्षा समिति (BSEB) — कक्षा 10 MCQ अभ्यास मंच</p>
+    <p style="margin-top:0.25rem;">Bihar Board Class 10 MCQ Practice Platform &mdash; Hindi + English Medium</p>
+  </footer>
+
+  <!-- ====== SCRIPTS (order matters: data → engines → UI → app) ====== -->
+  <script src="js/data/syllabus.js"></script>
+  <script src="js/data/questionBank.js"></script>
+  <script src="js/data/questionBankExtra.js"></script>
+  <script>
+    // Merge all question bank files into one central array at runtime
+    if (window.BSEB_QUESTION_BANK_EXTRA && Array.isArray(window.BSEB_QUESTION_BANK_EXTRA)) {
+      window.BSEB_QUESTION_BANK = window.BSEB_QUESTION_BANK.concat(window.BSEB_QUESTION_BANK_EXTRA);
+    }
+  </script>
+  <script src="js/engine/questionBankEngine.js"></script>
+  <script src="js/engine/testEngine.js"></script>
+  <script src="js/engine/analyticsEngine.js"></script>
+  <script src="js/ui/components.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
