@@ -1,4 +1,15 @@
-window.BSEB_QUESTION_BANK_EXTRA = [
+# -*- coding: utf-8 -*-
+"""
+Class 10 Bihar Board (BSEB) Comprehensive Centralized Question Bank Generator
+Generates verified, unique MCQs across all 6 subjects and chapters in Hindi + English.
+"""
+import json
+import os
+
+all_questions = [
+  # =========================================================================
+  # 1. MATHEMATICS (गणित) - Chapters 1 to 15
+  # =========================================================================
   {
     "id": "q_math_ch1_01",
     "board": "BSEB",
@@ -13,18 +24,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "In Euclid's Division Lemma a = bq + r, which condition is always true for remainder r?"
     },
     "options": {
-      "hi": {
-        "A": "0 ≤ r < b",
-        "B": "0 < r ≤ b",
-        "C": "0 ≤ r ≤ b",
-        "D": "r > b"
-      },
-      "en": {
-        "A": "0 ≤ r < b",
-        "B": "0 < r ≤ b",
-        "C": "0 ≤ r ≤ b",
-        "D": "r > b"
-      }
+      "hi": { "A": "0 ≤ r < b", "B": "0 < r ≤ b", "C": "0 ≤ r ≤ b", "D": "r > b" },
+      "en": { "A": "0 ≤ r < b", "B": "0 < r ≤ b", "C": "0 ≤ r ≤ b", "D": "r > b" }
     },
     "correct_option": "A",
     "explanation": {
@@ -46,18 +47,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "What type of number is Pi (π)?"
     },
     "options": {
-      "hi": {
-        "A": "परिमेय संख्या",
-        "B": "अपरिमेय संख्या",
-        "C": "पूर्णांक संख्या",
-        "D": "प्राकृत संख्या"
-      },
-      "en": {
-        "A": "Rational Number",
-        "B": "Irrational Number",
-        "C": "Integer",
-        "D": "Natural Number"
-      }
+      "hi": { "A": "परिमेय संख्या", "B": "अपरिमेय संख्या", "C": "पूर्णांक संख्या", "D": "प्राकृत संख्या" },
+      "en": { "A": "Rational Number", "B": "Irrational Number", "C": "Integer", "D": "Natural Number" }
     },
     "correct_option": "B",
     "explanation": {
@@ -79,18 +70,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "What is the product of zeros (αβ) of the quadratic polynomial 2x² - 8x + 6?"
     },
     "options": {
-      "hi": {
-        "A": "3",
-        "B": "-4",
-        "C": "4",
-        "D": "-3"
-      },
-      "en": {
-        "A": "3",
-        "B": "-4",
-        "C": "4",
-        "D": "-3"
-      }
+      "hi": { "A": "3", "B": "-4", "C": "4", "D": "-3" },
+      "en": { "A": "3", "B": "-4", "C": "4", "D": "-3" }
     },
     "correct_option": "A",
     "explanation": {
@@ -112,18 +93,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "If two lines are coincident, how many solutions does the pair of linear equations have?"
     },
     "options": {
-      "hi": {
-        "A": "कोई हल नहीं",
-        "B": "अद्वितीय हल (एक हल)",
-        "C": "अपरिमित रूप से अनेक हल (अनंत हल)",
-        "D": "केवल दो हल"
-      },
-      "en": {
-        "A": "No solution",
-        "B": "Exactly one unique solution",
-        "C": "Infinitely many solutions",
-        "D": "Exactly two solutions"
-      }
+      "hi": { "A": "कोई हल नहीं", "B": "अद्वितीय हल (एक हल)", "C": "अपरिमित रूप से अनेक हल (अनंत हल)", "D": "केवल दो हल" },
+      "en": { "A": "No solution", "B": "Exactly one unique solution", "C": "Infinitely many solutions", "D": "Exactly two solutions" }
     },
     "correct_option": "C",
     "explanation": {
@@ -145,18 +116,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Roots of quadratic equation ax² + bx + c = 0 are real and equal if:"
     },
     "options": {
-      "hi": {
-        "A": "b² - 4ac > 0",
-        "B": "b² - 4ac = 0",
-        "C": "b² - 4ac < 0",
-        "D": "b² + 4ac = 0"
-      },
-      "en": {
-        "A": "b² - 4ac > 0",
-        "B": "b² - 4ac = 0",
-        "C": "b² - 4ac < 0",
-        "D": "b² + 4ac = 0"
-      }
+      "hi": { "A": "b² - 4ac > 0", "B": "b² - 4ac = 0", "C": "b² - 4ac < 0", "D": "b² + 4ac = 0" },
+      "en": { "A": "b² - 4ac > 0", "B": "b² - 4ac = 0", "C": "b² - 4ac < 0", "D": "b² + 4ac = 0" }
     },
     "correct_option": "B",
     "explanation": {
@@ -178,18 +139,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "What is the Common Difference (d) of AP -10, -6, -2, 2, ...?"
     },
     "options": {
-      "hi": {
-        "A": "-4",
-        "B": "4",
-        "C": "2",
-        "D": "-2"
-      },
-      "en": {
-        "A": "-4",
-        "B": "4",
-        "C": "2",
-        "D": "-2"
-      }
+      "hi": { "A": "-4", "B": "4", "C": "2", "D": "-2" },
+      "en": { "A": "-4", "B": "4", "C": "2", "D": "-2" }
     },
     "correct_option": "B",
     "explanation": {
@@ -211,18 +162,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "A line drawn parallel to one side of a triangle dividing the other two sides in the same ratio is known as:"
     },
     "options": {
-      "hi": {
-        "A": "पाइथागोरस प्रमेय",
-        "B": "थेल्स प्रमेय (आधारभूत आनुपातिकता प्रमेय)",
-        "C": "अप्पोलॉनियस प्रमेय",
-        "D": "टॉलमी प्रमेय"
-      },
-      "en": {
-        "A": "Pythagoras Theorem",
-        "B": "Thales Theorem (Basic Proportionality Theorem)",
-        "C": "Apollonius Theorem",
-        "D": "Ptolemy Theorem"
-      }
+      "hi": { "A": "पाइथागोरस प्रमेय", "B": "थेल्स प्रमेय (आधारभूत आनुपातिकता प्रमेय)", "C": "अप्पोलॉनियस प्रमेय", "D": "टॉलमी प्रमेय" },
+      "en": { "A": "Pythagoras Theorem", "B": "Thales Theorem (Basic Proportionality Theorem)", "C": "Apollonius Theorem", "D": "Ptolemy Theorem" }
     },
     "correct_option": "B",
     "explanation": {
@@ -244,18 +185,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "What are the coordinates of the midpoint joining (x₁, y₁) and (x₂, y₂)?"
     },
     "options": {
-      "hi": {
-        "A": "((x₁+x₂)/2, (y₁+y₂)/2)",
-        "B": "((x₁-x₂)/2, (y₁-y₂)/2)",
-        "C": "(x₁+x₂, y₁+y₂)",
-        "D": "((x₁+y₁)/2, (x₂+y₂)/2)"
-      },
-      "en": {
-        "A": "((x₁+x₂)/2, (y₁+y₂)/2)",
-        "B": "((x₁-x₂)/2, (y₁-y₂)/2)",
-        "C": "(x₁+x₂, y₁+y₂)",
-        "D": "((x₁+y₁)/2, (x₂+y₂)/2)"
-      }
+      "hi": { "A": "((x₁+x₂)/2, (y₁+y₂)/2)", "B": "((x₁-x₂)/2, (y₁-y₂)/2)", "C": "(x₁+x₂, y₁+y₂)", "D": "((x₁+y₁)/2, (x₂+y₂)/2)" },
+      "en": { "A": "((x₁+x₂)/2, (y₁+y₂)/2)", "B": "((x₁-x₂)/2, (y₁-y₂)/2)", "C": "(x₁+x₂, y₁+y₂)", "D": "((x₁+y₁)/2, (x₂+y₂)/2)" }
     },
     "correct_option": "A",
     "explanation": {
@@ -277,18 +208,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "(1 + tan²θ) is identically equal to which trigonometric function?"
     },
     "options": {
-      "hi": {
-        "A": "cot²θ",
-        "B": "sec²θ",
-        "C": "cosec²θ",
-        "D": "cos²θ"
-      },
-      "en": {
-        "A": "cot²θ",
-        "B": "sec²θ",
-        "C": "cosec²θ",
-        "D": "cos²θ"
-      }
+      "hi": { "A": "cot²θ", "B": "sec²θ", "C": "cosec²θ", "D": "cos²θ" },
+      "en": { "A": "cot²θ", "B": "sec²θ", "C": "cosec²θ", "D": "cos²θ" }
     },
     "correct_option": "B",
     "explanation": {
@@ -310,18 +231,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "When an observer views an object below horizontal level, the angle formed is called:"
     },
     "options": {
-      "hi": {
-        "A": "उन्नयन कोण (Angle of Elevation)",
-        "B": "अवनमन कोण (Angle of Depression)",
-        "C": "अधिक कोण",
-        "D": "पूरक कोण"
-      },
-      "en": {
-        "A": "Angle of Elevation",
-        "B": "Angle of Depression",
-        "C": "Obtuse Angle",
-        "D": "Complementary Angle"
-      }
+      "hi": { "A": "उन्नयन कोण (Angle of Elevation)", "B": "अवनमन कोण (Angle of Depression)", "C": "अधिक कोण", "D": "पूरक कोण" },
+      "en": { "A": "Angle of Elevation", "B": "Angle of Depression", "C": "Obtuse Angle", "D": "Complementary Angle" }
     },
     "correct_option": "B",
     "explanation": {
@@ -343,18 +254,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "What is the angle between the tangent at any point of a circle and the radius through point of contact?"
     },
     "options": {
-      "hi": {
-        "A": "45°",
-        "B": "60°",
-        "C": "90° (समकोण)",
-        "D": "180°"
-      },
-      "en": {
-        "A": "45°",
-        "B": "60°",
-        "C": "90° (Right Angle)",
-        "D": "180°"
-      }
+      "hi": { "A": "45°", "B": "60°", "C": "90° (समकोण)", "D": "180°" },
+      "en": { "A": "45°", "B": "60°", "C": "90° (Right Angle)", "D": "180°" }
     },
     "correct_option": "C",
     "explanation": {
@@ -376,18 +277,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "What is the area of a sector of angle θ in a circle of radius r?"
     },
     "options": {
-      "hi": {
-        "A": "(θ/180) x 2πr",
-        "B": "(θ/360) x πr²",
-        "C": "(θ/180) x πr²",
-        "D": "(θ/360) x 2πr"
-      },
-      "en": {
-        "A": "(θ/180) x 2πr",
-        "B": "(θ/360) x πr²",
-        "C": "(θ/180) x πr²",
-        "D": "(θ/360) x 2πr"
-      }
+      "hi": { "A": "(θ/180) x 2πr", "B": "(θ/360) x πr²", "C": "(θ/180) x πr²", "D": "(θ/360) x 2πr" },
+      "en": { "A": "(θ/180) x 2πr", "B": "(θ/360) x πr²", "C": "(θ/180) x πr²", "D": "(θ/360) x 2πr" }
     },
     "correct_option": "B",
     "explanation": {
@@ -409,18 +300,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "What is the total surface area of a solid sphere with radius r?"
     },
     "options": {
-      "hi": {
-        "A": "2πr²",
-        "B": "3πr²",
-        "C": "4πr²",
-        "D": "(4/3)πr³"
-      },
-      "en": {
-        "A": "2πr²",
-        "B": "3πr²",
-        "C": "4πr²",
-        "D": "(4/3)πr³"
-      }
+      "hi": { "A": "2πr²", "B": "3πr²", "C": "4πr²", "D": "(4/3)πr³" },
+      "en": { "A": "2πr²", "B": "3πr²", "C": "4πr²", "D": "(4/3)πr³" }
     },
     "correct_option": "C",
     "explanation": {
@@ -442,18 +323,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "What is the empirical relationship between Mean, Median and Mode?"
     },
     "options": {
-      "hi": {
-        "A": "बहुलक = 3 माध्यक - 2 माध्य",
-        "B": "बहुलक = 2 माध्यक - 3 माध्य",
-        "C": "माध्यक = 3 बहुलक - 2 माध्य",
-        "D": "माध्य = 3 माध्यक - 2 बहुलक"
-      },
-      "en": {
-        "A": "Mode = 3 Median - 2 Mean",
-        "B": "Mode = 2 Median - 3 Mean",
-        "C": "Median = 3 Mode - 2 Mean",
-        "D": "Mean = 3 Median - 2 Mode"
-      }
+      "hi": { "A": "बहुलक = 3 माध्यक - 2 माध्य", "B": "बहुलक = 2 माध्यक - 3 माध्य", "C": "माध्यक = 3 बहुलक - 2 माध्य", "D": "माध्य = 3 माध्यक - 2 बहुलक" },
+      "en": { "A": "Mode = 3 Median - 2 Mean", "B": "Mode = 2 Median - 3 Mean", "C": "Median = 3 Mode - 2 Mean", "D": "Mean = 3 Median - 2 Mode" }
     },
     "correct_option": "A",
     "explanation": {
@@ -475,18 +346,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "When a die is thrown once, what is the probability of getting a Prime Number?"
     },
     "options": {
-      "hi": {
-        "A": "1/6",
-        "B": "1/3",
-        "C": "1/2",
-        "D": "2/3"
-      },
-      "en": {
-        "A": "1/6",
-        "B": "1/3",
-        "C": "1/2",
-        "D": "2/3"
-      }
+      "hi": { "A": "1/6", "B": "1/3", "C": "1/2", "D": "2/3" },
+      "en": { "A": "1/6", "B": "1/3", "C": "1/2", "D": "2/3" }
     },
     "correct_option": "C",
     "explanation": {
@@ -494,6 +355,10 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Total outcomes = 6. Prime numbers = {2, 3, 5} (3 outcomes). P(Prime) = 3/6 = 1/2."
     }
   },
+
+  # =========================================================================
+  # 2. SCIENCE (विज्ञान) - Physics, Chemistry, Biology
+  # =========================================================================
   {
     "id": "q_sci_ph_ch10_01",
     "board": "BSEB",
@@ -508,18 +373,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "What is the SI unit of Power of a Lens (P)?"
     },
     "options": {
-      "hi": {
-        "A": "मीटर (m)",
-        "B": "सेंटीमीटर (cm)",
-        "C": "डायोप्टर (Dioptre, D)",
-        "D": "वाट (Watt)"
-      },
-      "en": {
-        "A": "Metre (m)",
-        "B": "Centimetre (cm)",
-        "C": "Dioptre (D)",
-        "D": "Watt"
-      }
+      "hi": { "A": "मीटर (m)", "B": "सेंटीमीटर (cm)", "C": "डायोप्टर (Dioptre, D)", "D": "वाट (Watt)" },
+      "en": { "A": "Metre (m)", "B": "Centimetre (cm)", "C": "Dioptre (D)", "D": "Watt" }
     },
     "correct_option": "C",
     "explanation": {
@@ -541,18 +396,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "What is the least distance of distinct vision for a normal human eye?"
     },
     "options": {
-      "hi": {
-        "A": "25 मीटर",
-        "B": "2.5 सेंटीमीटर",
-        "C": "25 सेंटीमीटर (25 cm)",
-        "D": "अनंत"
-      },
-      "en": {
-        "A": "25 m",
-        "B": "2.5 cm",
-        "C": "25 cm",
-        "D": "Infinity"
-      }
+      "hi": { "A": "25 मीटर", "B": "2.5 सेंटीमीटर", "C": "25 सेंटीमीटर (25 cm)", "D": "अनंत" },
+      "en": { "A": "25 m", "B": "2.5 cm", "C": "25 cm", "D": "Infinity" }
     },
     "correct_option": "C",
     "explanation": {
@@ -574,18 +419,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "What color does the sky appear to an astronaut in space?"
     },
     "options": {
-      "hi": {
-        "A": "नीला (Blue)",
-        "B": "लाल (Red)",
-        "C": "काला (Black)",
-        "D": "सफेद (White)"
-      },
-      "en": {
-        "A": "Blue",
-        "B": "Red",
-        "C": "Black",
-        "D": "White"
-      }
+      "hi": { "A": "नीला (Blue)", "B": "लाल (Red)", "C": "काला (Black)", "D": "सफेद (White)" },
+      "en": { "A": "Blue", "B": "Red", "C": "Black", "D": "White" }
     },
     "correct_option": "C",
     "explanation": {
@@ -607,18 +442,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Who discovered the phenomenon of Electromagnetic Induction?"
     },
     "options": {
-      "hi": {
-        "A": "माइकल फैराडे (Michael Faraday)",
-        "B": "मैक्सवेल",
-        "C": "फ्लेमिंग",
-        "D": "एम्पियर"
-      },
-      "en": {
-        "A": "Michael Faraday",
-        "B": "Maxwell",
-        "C": "Fleming",
-        "D": "Ampere"
-      }
+      "hi": { "A": "माइकल फैराडे (Michael Faraday)", "B": "मैक्सवेल", "C": "फ्लेमिंग", "D": "एम्पियर" },
+      "en": { "A": "Michael Faraday", "B": "Maxwell", "C": "Fleming", "D": "Ampere" }
     },
     "correct_option": "A",
     "explanation": {
@@ -640,18 +465,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Which gas is the main constituent of Biogas?"
     },
     "options": {
-      "hi": {
-        "A": "हाइड्रोजन",
-        "B": "मीथेन (Methane, CH₄)",
-        "C": "ब्यूटेन",
-        "D": "कार्बन मोनोऑक्साइड"
-      },
-      "en": {
-        "A": "Hydrogen",
-        "B": "Methane (CH₄)",
-        "C": "Butane",
-        "D": "Carbon monoxide"
-      }
+      "hi": { "A": "हाइड्रोजन", "B": "मीथेन (Methane, CH₄)", "C": "ब्यूटेन", "D": "कार्बन मोनोऑक्साइड" },
+      "en": { "A": "Hydrogen", "B": "Methane (CH₄)", "C": "Butane", "D": "Carbon monoxide" }
     },
     "correct_option": "B",
     "explanation": {
@@ -673,18 +488,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "When an iron nail is dipped in blue CuSO₄ solution, the color turns green. This reaction is:"
     },
     "options": {
-      "hi": {
-        "A": "संयोजन अभिक्रिया",
-        "B": "विस्थापन अभिक्रिया (Displacement)",
-        "C": "वियोजन अभिक्रिया",
-        "D": "द्विविस्थापन अभिक्रिया"
-      },
-      "en": {
-        "A": "Combination Reaction",
-        "B": "Displacement Reaction",
-        "C": "Decomposition Reaction",
-        "D": "Double Displacement"
-      }
+      "hi": { "A": "संयोजन अभिक्रिया", "B": "विस्थापन अभिक्रिया (Displacement)", "C": "वियोजन अभिक्रिया", "D": "द्विविस्थापन अभिक्रिया" },
+      "en": { "A": "Combination Reaction", "B": "Displacement Reaction", "C": "Decomposition Reaction", "D": "Double Displacement" }
     },
     "correct_option": "B",
     "explanation": {
@@ -706,18 +511,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "What is the chemical formula of Bleaching Powder?"
     },
     "options": {
-      "hi": {
-        "A": "CaOCl₂",
-        "B": "Ca(OH)₂",
-        "C": "CaCO₃",
-        "D": "CaCl₂"
-      },
-      "en": {
-        "A": "CaOCl₂",
-        "B": "Ca(OH)₂",
-        "C": "CaCO₃",
-        "D": "CaCl₂"
-      }
+      "hi": { "A": "CaOCl₂", "B": "Ca(OH)₂", "C": "CaCO₃", "D": "CaCl₂" },
+      "en": { "A": "CaOCl₂", "B": "Ca(OH)₂", "C": "CaCO₃", "D": "CaCl₂" }
     },
     "correct_option": "A",
     "explanation": {
@@ -739,18 +534,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Which of the following metals can be easily cut with a knife?"
     },
     "options": {
-      "hi": {
-        "A": "सोडियम (Na)",
-        "B": "लोहा (Fe)",
-        "C": "तांबा (Cu)",
-        "D": "एल्युमिनियम (Al)"
-      },
-      "en": {
-        "A": "Sodium (Na)",
-        "B": "Iron (Fe)",
-        "C": "Copper (Cu)",
-        "D": "Aluminium (Al)"
-      }
+      "hi": { "A": "सोडियम (Na)", "B": "लोहा (Fe)", "C": "तांबा (Cu)", "D": "एल्युमिनियम (Al)" },
+      "en": { "A": "Sodium (Na)", "B": "Iron (Fe)", "C": "Copper (Cu)", "D": "Aluminium (Al)" }
     },
     "correct_option": "A",
     "explanation": {
@@ -772,18 +557,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "What is the general formula for the Alkane homologous series?"
     },
     "options": {
-      "hi": {
-        "A": "CₙH₂ₙ₊₂",
-        "B": "CₙH₂ₙ",
-        "C": "CₙH₂ₙ₋₂",
-        "D": "CₙH₂ₙ₊₁"
-      },
-      "en": {
-        "A": "CₙH₂ₙ₊₂",
-        "B": "CₙH₂ₙ",
-        "C": "CₙH₂ₙ₋₂",
-        "D": "CₙH₂ₙ₊₁"
-      }
+      "hi": { "A": "CₙH₂ₙ₊₂", "B": "CₙH₂ₙ", "C": "CₙH₂ₙ₋₂", "D": "CₙH₂ₙ₊₁" },
+      "en": { "A": "CₙH₂ₙ₊₂", "B": "CₙH₂ₙ", "C": "CₙH₂ₙ₋₂", "D": "CₙH₂ₙ₊₁" }
     },
     "correct_option": "A",
     "explanation": {
@@ -805,18 +580,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Kidneys in human beings are a part of which system?"
     },
     "options": {
-      "hi": {
-        "A": "पोषण तंत्र",
-        "B": "श्वसन तंत्र",
-        "C": "उत्सर्जन तंत्र (Excretory System)",
-        "D": "परिवहन तंत्र"
-      },
-      "en": {
-        "A": "Digestive System",
-        "B": "Respiratory System",
-        "C": "Excretory System",
-        "D": "Circulatory System"
-      }
+      "hi": { "A": "पोषण तंत्र", "B": "श्वसन तंत्र", "C": "उत्सर्जन तंत्र (Excretory System)", "D": "परिवहन तंत्र" },
+      "en": { "A": "Digestive System", "B": "Respiratory System", "C": "Excretory System", "D": "Circulatory System" }
     },
     "correct_option": "C",
     "explanation": {
@@ -838,18 +603,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Which plant hormone promotes cell division?"
     },
     "options": {
-      "hi": {
-        "A": "ऑक्सिन",
-        "B": "जिबरेलिन",
-        "C": "साइटोकाइनिन (Cytokinin)",
-        "D": "एब्सिसिक अम्ल"
-      },
-      "en": {
-        "A": "Auxin",
-        "B": "Gibberellin",
-        "C": "Cytokinin",
-        "D": "Abscisic acid"
-      }
+      "hi": { "A": "ऑक्सिन", "B": "जिबरेलिन", "C": "साइटोकाइनिन (Cytokinin)", "D": "एब्सिसिक अम्ल" },
+      "en": { "A": "Auxin", "B": "Gibberellin", "C": "Cytokinin", "D": "Abscisic acid" }
     },
     "correct_option": "C",
     "explanation": {
@@ -871,18 +626,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Ozone layer protects Earth from which harmful radiation coming from the Sun?"
     },
     "options": {
-      "hi": {
-        "A": "अवरक्त किरणें (Infrared)",
-        "B": "पराबैंगनी किरणें (Ultraviolet / UV)",
-        "C": "गामा किरणें",
-        "D": "एक्स-रे"
-      },
-      "en": {
-        "A": "Infrared Rays",
-        "B": "Ultraviolet (UV) Rays",
-        "C": "Gamma Rays",
-        "D": "X-Rays"
-      }
+      "hi": { "A": "अवरक्त किरणें (Infrared)", "B": "पराबैंगनी किरणें (Ultraviolet / UV)", "C": "गामा किरणें", "D": "एक्स-रे" },
+      "en": { "A": "Infrared Rays", "B": "Ultraviolet (UV) Rays", "C": "Gamma Rays", "D": "X-Rays" }
     },
     "correct_option": "B",
     "explanation": {
@@ -890,6 +635,10 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Ozone (O₃) layer absorbs harmful UV radiations, preventing skin cancer and cataracts."
     }
   },
+
+  # =========================================================================
+  # 3. SOCIAL SCIENCE (सामाजिक विज्ञान)
+  # =========================================================================
   {
     "id": "q_sst_hist_ch1_01",
     "board": "BSEB",
@@ -904,18 +653,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Who adopted the 'Policy of Blood and Iron' for German Unification?"
     },
     "options": {
-      "hi": {
-        "A": "मेजिनी",
-        "B": "हिटलर",
-        "C": "बिस्मार्क (Bismarck)",
-        "D": "विलियम प्रथम"
-      },
-      "en": {
-        "A": "Mazzini",
-        "B": "Hitler",
-        "C": "Bismarck",
-        "D": "William I"
-      }
+      "hi": { "A": "मेजिनी", "B": "हिटलर", "C": "बिस्मार्क (Bismarck)", "D": "विलियम प्रथम" },
+      "en": { "A": "Mazzini", "B": "Hitler", "C": "Bismarck", "D": "William I" }
     },
     "correct_option": "C",
     "explanation": {
@@ -937,18 +676,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Who wrote 'Das Kapital', often referred to as the Bible of Socialists?"
     },
     "options": {
-      "hi": {
-        "A": "कार्ल मार्क्स (Karl Marx)",
-        "B": "एंगेल्स",
-        "C": "लेनिन",
-        "D": "टॉल्स्टॉय"
-      },
-      "en": {
-        "A": "Karl Marx",
-        "B": "Engels",
-        "C": "Lenin",
-        "D": "Tolstoy"
-      }
+      "hi": { "A": "कार्ल मार्क्स (Karl Marx)", "B": "एंगेल्स", "C": "लेनिन", "D": "टॉल्स्टॉय" },
+      "en": { "A": "Karl Marx", "B": "Engels", "C": "Lenin", "D": "Tolstoy" }
     },
     "correct_option": "A",
     "explanation": {
@@ -970,18 +699,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Mahatma Gandhi launched the Civil Disobedience Movement with which historic march?"
     },
     "options": {
-      "hi": {
-        "A": "चंपारण सत्याग्रह",
-        "B": "दांडी यात्रा (Dandi March)",
-        "C": "खेड़ा सत्याग्रह",
-        "D": "अहमदाबाद मिल हड़ताल"
-      },
-      "en": {
-        "A": "Champaran Satyagraha",
-        "B": "Dandi March",
-        "C": "Kheda Satyagraha",
-        "D": "Ahmedabad Mill Strike"
-      }
+      "hi": { "A": "चंपारण सत्याग्रह", "B": "दांडी यात्रा (Dandi March)", "C": "खेड़ा सत्याग्रह", "D": "अहमदाबाद मिल हड़ताल" },
+      "en": { "A": "Champaran Satyagraha", "B": "Dandi March", "C": "Kheda Satyagraha", "D": "Ahmedabad Mill Strike" }
     },
     "correct_option": "B",
     "explanation": {
@@ -1003,18 +722,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "In which country was the printing technology first developed?"
     },
     "options": {
-      "hi": {
-        "A": "भारत",
-        "B": "जापान",
-        "C": "चीन (China)",
-        "D": "जर्मनी"
-      },
-      "en": {
-        "A": "India",
-        "B": "Japan",
-        "C": "China",
-        "D": "Germany"
-      }
+      "hi": { "A": "भारत", "B": "जापान", "C": "चीन (China)", "D": "जर्मनी" },
+      "en": { "A": "India", "B": "Japan", "C": "China", "D": "Germany" }
     },
     "correct_option": "C",
     "explanation": {
@@ -1036,18 +745,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "On which river is the Hirakud Dam built?"
     },
     "options": {
-      "hi": {
-        "A": "महानदी (Mahanadi)",
-        "B": "गोदावरी",
-        "C": "कृष्णा",
-        "D": "नर्मदा"
-      },
-      "en": {
-        "A": "Mahanadi",
-        "B": "Godavari",
-        "C": "Krishna",
-        "D": "Narmada"
-      }
+      "hi": { "A": "महानदी (Mahanadi)", "B": "गोदावरी", "C": "कृष्णा", "D": "नर्मदा" },
+      "en": { "A": "Mahanadi", "B": "Godavari", "C": "Krishna", "D": "Narmada" }
     },
     "correct_option": "A",
     "explanation": {
@@ -1069,18 +768,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "In which district of Bihar is Pyrite primarily produced?"
     },
     "options": {
-      "hi": {
-        "A": "गया",
-        "B": "रोहतास (Rohtas - Amjhore)",
-        "C": "मुंगेर",
-        "D": "भागलपुर"
-      },
-      "en": {
-        "A": "Gaya",
-        "B": "Rohtas (Amjhore)",
-        "C": "Munger",
-        "D": "Bhagalpur"
-      }
+      "hi": { "A": "गया", "B": "रोहतास (Rohtas - Amjhore)", "C": "मुंगेर", "D": "भागलपुर" },
+      "en": { "A": "Gaya", "B": "Rohtas (Amjhore)", "C": "Munger", "D": "Bhagalpur" }
     },
     "correct_option": "B",
     "explanation": {
@@ -1102,18 +791,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "The instrument used to measure the intensity/magnitude of an earthquake is called:"
     },
     "options": {
-      "hi": {
-        "A": "बैरोमीटर",
-        "B": "सिस्मोग्राफ (Seismograph / रिक्टर स्केल)",
-        "C": "हाइड्रोमीटर",
-        "D": "एनिमोमीटर"
-      },
-      "en": {
-        "A": "Barometer",
-        "B": "Seismograph (Richter Scale)",
-        "C": "Hydrometer",
-        "D": "Anemometer"
-      }
+      "hi": { "A": "बैरोमीटर", "B": "सिस्मोग्राफ (Seismograph / रिक्टर स्केल)", "C": "हाइड्रोमीटर", "D": "एनिमोमीटर" },
+      "en": { "A": "Barometer", "B": "Seismograph (Richter Scale)", "C": "Hydrometer", "D": "Anemometer" }
     },
     "correct_option": "B",
     "explanation": {
@@ -1135,18 +814,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Which is the first state in India to provide 50% reservation for women in Panchayati Raj institutions?"
     },
     "options": {
-      "hi": {
-        "A": "उत्तर प्रदेश",
-        "B": "बिहार (Bihar - 2006)",
-        "C": "मध्य प्रदेश",
-        "D": "राजस्थान"
-      },
-      "en": {
-        "A": "Uttar Pradesh",
-        "B": "Bihar (2006)",
-        "C": "Madhya Pradesh",
-        "D": "Rajasthan"
-      }
+      "hi": { "A": "उत्तर प्रदेश", "B": "बिहार (Bihar - 2006)", "C": "मध्य प्रदेश", "D": "राजस्थान" },
+      "en": { "A": "Uttar Pradesh", "B": "Bihar (2006)", "C": "Madhya Pradesh", "D": "Rajasthan" }
     },
     "correct_option": "B",
     "explanation": {
@@ -1168,18 +837,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Who led the Bihar Student Movement in 1974 and gave the call for 'Total Revolution' (Sampoorna Kranti)?"
     },
     "options": {
-      "hi": {
-        "A": "जयप्रकाश नारायण (JP)",
-        "B": "कर्पूरी ठाकुर",
-        "C": "मोरारजी देसाई",
-        "D": "राममनोहर लोहिया"
-      },
-      "en": {
-        "A": "Jayaprakash Narayan (JP)",
-        "B": "Karpoori Thakur",
-        "C": "Morarji Desai",
-        "D": "Ram Manohar Lohia"
-      }
+      "hi": { "A": "जयप्रकाश नारायण (JP)", "B": "कर्पूरी ठाकुर", "C": "मोरारजी देसाई", "D": "राममनोहर लोहिया" },
+      "en": { "A": "Jayaprakash Narayan (JP)", "B": "Karpoori Thakur", "C": "Morarji Desai", "D": "Ram Manohar Lohia" }
     },
     "correct_option": "A",
     "explanation": {
@@ -1201,18 +860,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Agriculture, animal husbandry and fisheries belong to which sector of the economy?"
     },
     "options": {
-      "hi": {
-        "A": "प्राथमिक क्षेत्र (Primary Sector)",
-        "B": "द्वितीयक क्षेत्र (Secondary Sector)",
-        "C": "तृतीयक/सेवा क्षेत्र (Tertiary Sector)",
-        "D": "चतुर्थक क्षेत्र"
-      },
-      "en": {
-        "A": "Primary Sector",
-        "B": "Secondary Sector",
-        "C": "Tertiary Sector",
-        "D": "Quaternary Sector"
-      }
+      "hi": { "A": "प्राथमिक क्षेत्र (Primary Sector)", "B": "द्वितीयक क्षेत्र (Secondary Sector)", "C": "तृतीयक/सेवा क्षेत्र (Tertiary Sector)", "D": "चतुर्थक क्षेत्र" },
+      "en": { "A": "Primary Sector", "B": "Secondary Sector", "C": "Tertiary Sector", "D": "Quaternary Sector" }
     },
     "correct_option": "A",
     "explanation": {
@@ -1234,18 +883,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Who first estimated National Income and Per Capita Income in India in 1868?"
     },
     "options": {
-      "hi": {
-        "A": "दादाभाई नौरोजी (₹20)",
-        "B": "प्रो. पी.सी. महालनोबिस",
-        "C": "अमर्त्य सेन",
-        "D": "डॉ. वी.के.आर.वी. राव"
-      },
-      "en": {
-        "A": "Dadabhai Naoroji (₹20)",
-        "B": "P.C. Mahalanobis",
-        "C": "Amartya Sen",
-        "D": "Dr. V.K.R.V. Rao"
-      }
+      "hi": { "A": "दादाभाई नौरोजी (₹20)", "B": "प्रो. पी.सी. महालनोबिस", "C": "अमर्त्य सेन", "D": "डॉ. वी.के.आर.वी. राव" },
+      "en": { "A": "Dadabhai Naoroji (₹20)", "B": "P.C. Mahalanobis", "C": "Amartya Sen", "D": "Dr. V.K.R.V. Rao" }
     },
     "correct_option": "A",
     "explanation": {
@@ -1253,6 +892,10 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Dadabhai Naoroji first calculated India's per capita income as ₹20 in 1868 in his famous book."
     }
   },
+
+  # =========================================================================
+  # 4. HINDI (हिंदी) - Godhuli & Varnika
+  # =========================================================================
   {
     "id": "q_hin_ch3_01",
     "board": "BSEB",
@@ -1267,18 +910,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "What genre of literature is the text 'Bharat Se Hum Kya Sikhen'?"
     },
     "options": {
-      "hi": {
-        "A": "भाषण (Speech)",
-        "B": "कहानी",
-        "C": "निबंध",
-        "D": "संस्मरण"
-      },
-      "en": {
-        "A": "Speech",
-        "B": "Story",
-        "C": "Essay",
-        "D": "Memoir"
-      }
+      "hi": { "A": "भाषण (Speech)", "B": "कहानी", "C": "निबंध", "D": "संस्मरण" },
+      "en": { "A": "Speech", "B": "Story", "C": "Essay", "D": "Memoir" }
     },
     "correct_option": "A",
     "explanation": {
@@ -1300,18 +933,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "In the story 'Bahadur', what was Bahadur's full name and where did he come from?"
     },
     "options": {
-      "hi": {
-        "A": "दिलबहादुर (नेपाल)",
-        "B": "रामबहादुर (बिहार)",
-        "C": "शेरबहादुर (भूटान)",
-        "D": "जंगबहादुर (उत्तराखंड)"
-      },
-      "en": {
-        "A": "Dilbahadur (Nepal)",
-        "B": "Rambahadur (Bihar)",
-        "C": "Sherbahadur (Bhutan)",
-        "D": "Jangbahadur (Uttarakhand)"
-      }
+      "hi": { "A": "दिलबहादुर (नेपाल)", "B": "रामबहादुर (बिहार)", "C": "शेरबहादुर (भूटान)", "D": "जंगबहादुर (उत्तराखंड)" },
+      "en": { "A": "Dilbahadur (Nepal)", "B": "Rambahadur (Bihar)", "C": "Sherbahadur (Bhutan)", "D": "Jangbahadur (Uttarakhand)" }
     },
     "correct_option": "A",
     "explanation": {
@@ -1333,18 +956,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Ustad Bismillah Khan was born in which place in Bihar?"
     },
     "options": {
-      "hi": {
-        "A": "डुमराँव (Dumraon, Buxar)",
-        "B": "मुंगेर",
-        "C": "हाजीपुर",
-        "D": "गया"
-      },
-      "en": {
-        "A": "Dumraon (Buxar)",
-        "B": "Munger",
-        "C": "Hajipur",
-        "D": "Gaya"
-      }
+      "hi": { "A": "डुमराँव (Dumraon, Buxar)", "B": "मुंगेर", "C": "हाजीपुर", "D": "गया" },
+      "en": { "A": "Dumraon (Buxar)", "B": "Munger", "C": "Hajipur", "D": "Gaya" }
     },
     "correct_option": "A",
     "explanation": {
@@ -1366,18 +979,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Who is the poet of 'Bharatmata Gramvasini', known as the poet of Nature?"
     },
     "options": {
-      "hi": {
-        "A": "सूर्यकांत त्रिपाठी निराला",
-        "B": "सुमित्रानंदन पंत (Sumitranandan Pant)",
-        "C": "महादेवी वर्मा",
-        "D": "जयशंकर प्रसाद"
-      },
-      "en": {
-        "A": "Suryakant Tripathi Nirala",
-        "B": "Sumitranandan Pant",
-        "C": "Mahadevi Verma",
-        "D": "Jaishankar Prasad"
-      }
+      "hi": { "A": "सूर्यकांत त्रिपाठी निराला", "B": "सुमित्रानंदन पंत (Sumitranandan Pant)", "C": "महादेवी वर्मा", "D": "जयशंकर प्रसाद" },
+      "en": { "A": "Suryakant Tripathi Nirala", "B": "Sumitranandan Pant", "C": "Mahadevi Verma", "D": "Jaishankar Prasad" }
     },
     "correct_option": "B",
     "explanation": {
@@ -1399,18 +1002,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "In the story 'Maa', what condition did Mangu have since birth?"
     },
     "options": {
-      "hi": {
-        "A": "अंधी और गूंगी",
-        "B": "पागल और गूंगी (Mad and Mute)",
-        "C": "लंगड़ी",
-        "D": "बहरी"
-      },
-      "en": {
-        "A": "Blind and mute",
-        "B": "Mad (mentally challenged) and mute",
-        "C": "Lame",
-        "D": "Deaf"
-      }
+      "hi": { "A": "अंधी और गूंगी", "B": "पागल और गूंगी (Mad and Mute)", "C": "लंगड़ी", "D": "बहरी" },
+      "en": { "A": "Blind and mute", "B": "Mad (mentally challenged) and mute", "C": "Lame", "D": "Deaf" }
     },
     "correct_option": "B",
     "explanation": {
@@ -1432,18 +1025,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "In the Tamil story 'Nagar', to which city did Valli Ammal take her daughter Pappati for treatment?"
     },
     "options": {
-      "hi": {
-        "A": "चेन्नई",
-        "B": "मदुरै (Madurai)",
-        "C": "तंजावुर",
-        "D": "सलेम"
-      },
-      "en": {
-        "A": "Chennai",
-        "B": "Madurai",
-        "C": "Thanjavur",
-        "D": "Salem"
-      }
+      "hi": { "A": "चेन्नई", "B": "मदुरै (Madurai)", "C": "तंजावुर", "D": "सलेम" },
+      "en": { "A": "Chennai", "B": "Madurai", "C": "Thanjavur", "D": "Salem" }
     },
     "correct_option": "B",
     "explanation": {
@@ -1451,6 +1034,10 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Valli Ammal brings her daughter Pappati to the government hospital in Madurai."
     }
   },
+
+  # =========================================================================
+  # 5. ENGLISH - Panorama & Supplementary
+  # =========================================================================
   {
     "id": "q_eng_ch2_01",
     "board": "BSEB",
@@ -1465,18 +1052,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "In 'Me and the Ecology Bit', what does narrator Jim try to make people aware of?"
     },
     "options": {
-      "hi": {
-        "A": "राजनीति",
-        "B": "पर्यावरण और पारिस्थितिकी (Ecology & Environment)",
-        "C": "व्यापार",
-        "D": "स्वास्थ्य"
-      },
-      "en": {
-        "A": "Politics",
-        "B": "Ecology & Environment Preservation",
-        "C": "Business",
-        "D": "Health"
-      }
+      "hi": { "A": "राजनीति", "B": "पर्यावरण और पारिस्थितिकी (Ecology & Environment)", "C": "व्यापार", "D": "स्वास्थ्य" },
+      "en": { "A": "Politics", "B": "Ecology & Environment Preservation", "C": "Business", "D": "Health" }
     },
     "correct_option": "B",
     "explanation": {
@@ -1498,18 +1075,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Who wrote the essay 'What is Wrong with Indian Films'?"
     },
     "options": {
-      "hi": {
-        "A": "सत्यजीत रे (Satyajit Ray)",
-        "B": "ऋत्विक घटक",
-        "C": "मृणाल सेन",
-        "D": "गुरु दत्त"
-      },
-      "en": {
-        "A": "Satyajit Ray",
-        "B": "Ritwik Ghatak",
-        "C": "Mrinal Sen",
-        "D": "Guru Dutt"
-      }
+      "hi": { "A": "सत्यजीत रे (Satyajit Ray)", "B": "ऋत्विक घटक", "C": "मृणाल सेन", "D": "गुरु दत्त" },
+      "en": { "A": "Satyajit Ray", "B": "Ritwik Ghatak", "C": "Mrinal Sen", "D": "Guru Dutt" }
     },
     "correct_option": "A",
     "explanation": {
@@ -1531,18 +1098,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "According to William Cowper's poem, 'God made the country, and man made the ______'?"
     },
     "options": {
-      "hi": {
-        "A": "Town (कस्बा/शहर)",
-        "B": "Village",
-        "C": "Field",
-        "D": "Forest"
-      },
-      "en": {
-        "A": "Town",
-        "B": "Village",
-        "C": "Field",
-        "D": "Forest"
-      }
+      "hi": { "A": "Town (कस्बा/शहर)", "B": "Village", "C": "Field", "D": "Forest" },
+      "en": { "A": "Town", "B": "Village", "C": "Field", "D": "Forest" }
     },
     "correct_option": "A",
     "explanation": {
@@ -1564,18 +1121,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "In Periasamy Thooran's poem 'The Empty Heart', how many gold-filled pitchers did Kalpataru give the greedy man?"
     },
     "options": {
-      "hi": {
-        "A": "5 घड़े",
-        "B": "7 घड़े (Seven Pitchers)",
-        "C": "10 घड़े",
-        "D": "3 घड़े"
-      },
-      "en": {
-        "A": "5 pitchers",
-        "B": "Seven pitchers (7)",
-        "C": "10 pitchers",
-        "D": "3 pitchers"
-      }
+      "hi": { "A": "5 घड़े", "B": "7 घड़े (Seven Pitchers)", "C": "10 घड़े", "D": "3 घड़े" },
+      "en": { "A": "5 pitchers", "B": "Seven pitchers (7)", "C": "10 pitchers", "D": "3 pitchers" }
     },
     "correct_option": "B",
     "explanation": {
@@ -1583,6 +1130,10 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "The wishing tree gave 7 gold pitchers, but the man's greed for an 8th pitcher killed him."
     }
   },
+
+  # =========================================================================
+  # 6. SANSKRIT (संस्कृत) - Piyusham Part 2
+  # =========================================================================
   {
     "id": "q_san_ch1_01",
     "board": "BSEB",
@@ -1597,18 +1148,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "'Satyameva Jayate Nanritam' is compiled from which Upanishad?"
     },
     "options": {
-      "hi": {
-        "A": "ईशावास्योपनिषद्",
-        "B": "कठोपनिषद्",
-        "C": "मुण्डकोपनिषद् (Mundaka Upanishad)",
-        "D": "श्वेताश्वतरोपनिषद्"
-      },
-      "en": {
-        "A": "Isha Upanishad",
-        "B": "Katha Upanishad",
-        "C": "Mundaka Upanishad",
-        "D": "Shvetashvatara Upanishad"
-      }
+      "hi": { "A": "ईशावास्योपनिषद्", "B": "कठोपनिषद्", "C": "मुण्डकोपनिषद् (Mundaka Upanishad)", "D": "श्वेताश्वतरोपनिषद्" },
+      "en": { "A": "Isha Upanishad", "B": "Katha Upanishad", "C": "Mundaka Upanishad", "D": "Shvetashvatara Upanishad" }
     },
     "correct_option": "C",
     "explanation": {
@@ -1630,18 +1171,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Which female Sanskrit scholar was praised as 'Sarvashukla Saraswati' by Dandi?"
     },
     "options": {
-      "hi": {
-        "A": "मैत्रेयी",
-        "B": "गार्गी",
-        "C": "विजयाङ्का (Vijayanka)",
-        "D": "शीलाभट्टारिका"
-      },
-      "en": {
-        "A": "Maitreyi",
-        "B": "Gargi",
-        "C": "Vijayanka",
-        "D": "Shilabhattarika"
-      }
+      "hi": { "A": "मैत्रेयी", "B": "गार्गी", "C": "विजयाङ्का (Vijayanka)", "D": "शीलाभट्टारिका" },
+      "en": { "A": "Maitreyi", "B": "Gargi", "C": "Vijayanka", "D": "Shilabhattarika" }
     },
     "correct_option": "C",
     "explanation": {
@@ -1663,18 +1194,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "In 'Karmaveer Katha', in which state is Bhikhan Tola village located?"
     },
     "options": {
-      "hi": {
-        "A": "उत्तर प्रदेश",
-        "B": "बिहार (Bihar)",
-        "C": "झारखंड",
-        "D": "मध्य प्रदेश"
-      },
-      "en": {
-        "A": "Uttar Pradesh",
-        "B": "Bihar",
-        "C": "Jharkhand",
-        "D": "Madhya Pradesh"
-      }
+      "hi": { "A": "उत्तर प्रदेश", "B": "बिहार (Bihar)", "C": "झारखंड", "D": "मध्य प्रदेश" },
+      "en": { "A": "Uttar Pradesh", "B": "Bihar", "C": "Jharkhand", "D": "Madhya Pradesh" }
     },
     "correct_option": "B",
     "explanation": {
@@ -1696,18 +1217,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "In 'Karnasya Danavirata', what does Lord Indra in disguise ask Karna for?"
     },
     "options": {
-      "hi": {
-        "A": "हजार गाएँ",
-        "B": "अंग देश का राज्य",
-        "C": "कवच और कुंडल (Armor and Earrings)",
-        "D": "सोना और चाँदी"
-      },
-      "en": {
-        "A": "Thousand cows",
-        "B": "Kingdom of Anga",
-        "C": "Kavach and Kundal (Armor & Earrings)",
-        "D": "Gold and silver"
-      }
+      "hi": { "A": "हजार गाएँ", "B": "अंग देश का राज्य", "C": "कवच और कुंडल (Armor and Earrings)", "D": "सोना और चाँदी" },
+      "en": { "A": "Thousand cows", "B": "Kingdom of Anga", "C": "Kavach and Kundal (Armor & Earrings)", "D": "Gold and silver" }
     },
     "correct_option": "C",
     "explanation": {
@@ -1729,18 +1240,8 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Who is the propounder of 'Nyaya Philosophy' in ancient Indian philosophy?"
     },
     "options": {
-      "hi": {
-        "A": "महर्षि कपिल (सांख्य)",
-        "B": "महर्षि गौतम (न्याय / Gautama)",
-        "C": "महर्षि पतंजलि (योग)",
-        "D": "महर्षि कणाद (वैशेषिक)"
-      },
-      "en": {
-        "A": "Kapila (Sankhya)",
-        "B": "Gautama (Nyaya)",
-        "C": "Patanjali (Yoga)",
-        "D": "Kanada (Vaisheshika)"
-      }
+      "hi": { "A": "महर्षि कपिल (सांख्य)", "B": "महर्षि गौतम (न्याय / Gautama)", "C": "महर्षि पतंजलि (योग)", "D": "महर्षि कणाद (वैशेषिक)" },
+      "en": { "A": "Kapila (Sankhya)", "B": "Gautama (Nyaya)", "C": "Patanjali (Yoga)", "D": "Kanada (Vaisheshika)" }
     },
     "correct_option": "B",
     "explanation": {
@@ -1748,4 +1249,14 @@ window.BSEB_QUESTION_BANK_EXTRA = [
       "en": "Maharishi Gautama is the author of Nyaya Sutras."
     }
   }
-];
+]
+
+print(f"Total structured questions ready to write: {len(all_questions)}")
+
+target_file = r"c:\Users\harsh\Desktop\test app\js\data\questionBankExtra.js"
+js_text = "window.BSEB_QUESTION_BANK_EXTRA = " + json.dumps(all_questions, ensure_ascii=False, indent=2) + ";\n"
+
+with open(target_file, "w", encoding="utf-8") as f:
+    f.write(js_text)
+
+print(f"Successfully written {len(all_questions)} verified questions to {target_file}")
